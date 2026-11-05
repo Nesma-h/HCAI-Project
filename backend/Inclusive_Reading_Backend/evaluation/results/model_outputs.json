@@ -1,0 +1,182 @@
+[
+    {
+        "id": 328,
+        "complex": "People with cardiomyopathy are often at risk of arrhythmia or sudden cardiac death or both .",
+        "reference": "Arrhythmia or heart beat disorder and sudden cardiac arrest are often associated with cardiomyopathy . Cardiomyopathy is deterioration of heart muscle and persons with this disease may subject to arrhythmia or sudden cardiac arrest . Sometimes both may happen at once .",
+        "prediction": "People who have cardiomyopathy are often at risk for arrhythmia, sudden cardiac death, or both."
+    },
+    {
+        "id": 58,
+        "complex": "After graduation he returned to Yerevan to teach at the local Conservatory and later he was appointed artistic director of the Armenian Philarmonic Orchestra .",
+        "reference": "fter graduation he came back to Yerevan to teach at the local Conservatory and then he was appointed artistic director of the Armenian Philarmonic Orchestra .",
+        "prediction": "After graduating, he went back to Yerevan to teach at the local Conservatory. Later, he was named artistic director of the Armenian Philharmonic Orchestra."
+    },
+    {
+        "id": 13,
+        "complex": "Graham attended Wheaton College from 1939 to 1943 , when he graduated with a BA in anthropology .",
+        "reference": "Graham attended Wheaton College from 1939 to 1943 and graduated with a BA in anthropology .",
+        "prediction": "Graham was a student at Wheaton College from 1939 until 1943, at which time he graduated with a Bachelor of Arts (BA) in anthropology."
+    },
+    {
+        "id": 141,
+        "complex": "On occasion the male '' den master '' will also allow a second male into the den ; the reason for this is unclear .",
+        "reference": "On opportunity the male '' den master '' will let a second male inside of the den ; the basis for this is poorly explained .",
+        "prediction": "Sometimes, the male \"den master\" will also let a second male into the den, though the reason for this is unclear."
+    },
+    {
+        "id": 126,
+        "complex": "Moderate to severe damage extended up the Atlantic coastline and as far inland as West Virginia .",
+        "reference": "There was moderate to severe damage all the way up the Atlantic coastline and as far inland as West Virginia .",
+        "prediction": "Damage ranging from moderate to severe spread all along the Atlantic coast and reached as far inland as West Virginia."
+    },
+    {
+        "id": 115,
+        "complex": "The characters are foul-mouthed extensions of their earlier characters Pete and Dud .",
+        "reference": "The characters speak bad language of their earlier characters pete and dud",
+        "prediction": "The characters use bad language and are extensions of the earlier characters Pete and Dud."
+    },
+    {
+        "id": 72,
+        "complex": "It continues as the Bohemian Switzerland in the Czech Republic .",
+        "reference": "It is still called as the Bohemian Switzerland in the Czech Republic .",
+        "prediction": "It continues as Bohemian Switzerland in the Czech Republic."
+    },
+    {
+        "id": 53,
+        "complex": "This stamp remained the standard letter stamp for the remainder of Victoria 's reign , and vast quantities were printed .",
+        "reference": "This stamp stayed the standard letter stamp for the rest of Victoria 's reign , and many were printed .",
+        "prediction": "This stamp remained the standard letter stamp for the rest of Queen Victoria's reign, and huge quantities of it were printed."
+    },
+    {
+        "id": 347,
+        "complex": "Gimnasia hired first famed Colombian trainer Francisco Maturana , and then Julio César Falcioni , but both had limited success .",
+        "reference": "Gimnasia hired Francisco Maturana , a Columbian trainer , and then Julio César Falcioni , but they were not very successful .",
+        "prediction": "Gimnasia hired the famous Colombian trainer Francisco Maturana first, and then Julio César Falcioni, but both had limited success."
+    },
+    {
+        "id": 280,
+        "complex": "These ideally provide excellent habitat for chinkara , hog deer and blue bull .",
+        "reference": "Ideally , these make an excellent breeding ground for chinkara , hog deer and blue bull .",
+        "prediction": "These areas ideally provide excellent habitats for chinkara, hog deer, and blue bull."
+    },
+    {
+        "id": 45,
+        "complex": "Formal minor planet designations are number-name combinations overseen by the Minor Planet Center , a branch of the IAU .",
+        "reference": "Formal minor planet designations are number-name combinations overseen by the Minor Planet Center .",
+        "prediction": "Official minor planet names consist of a combination of a number and a name. These designations are managed by the Minor Planet Center, which is a branch of the IAU."
+    },
+    {
+        "id": 303,
+        "complex": "The body color varies from medium brown to gold-ish to beige-white ; and occasionally , is marked with dark brown spots , especially on the limbs .",
+        "reference": "The body color varies from medium brown to goldish to beige-white and sometimes is marked with dark brown spots .",
+        "prediction": "The body color ranges from medium brown, gold, or beige-white, and sometimes has dark brown spots, particularly on the limbs."
+    },
+    {
+        "id": 217,
+        "complex": "Characteristics Radar observations indicate a fairly pure iron-nickel composition .",
+        "reference": "Radar testing shows composition of mostly iron-nickel .",
+        "prediction": "Radar observations show that the composition is mostly pure iron and nickel."
+    },
+    {
+        "id": 17,
+        "complex": "In its pure form , dextromethorphan occurs as a white powder .",
+        "reference": "In its pure form , dextromethorphan lives as a white powder .",
+        "prediction": "When it is pure, dextromethorphan is a white powder."
+    },
+    {
+        "id": 16,
+        "complex": "In 1987 Wexler was inducted into the Rock and Roll Hall of Fame .",
+        "reference": "In 1987 Wexler was inducted into the Rock and Roll Hall of Fame .",
+        "prediction": "In 1987, Wexler was inducted into the Rock and Roll Hall of Fame."
+    },
+    {
+        "id": 48,
+        "complex": "As a result , although many mosques will not enforce violations , both men and women when attending a mosque must adhere to these guidelines .",
+        "reference": "Although many mosques will not enforce rules , both men and women when there must follow these rules",
+        "prediction": "Even though many mosques may not punish people who break these rules, both men and women must still follow these guidelines when they visit a mosque."
+    },
+    {
+        "id": 112,
+        "complex": "The New York City Housing Authority Police Department was a law enforcement agency in New York City that existed from 1952 to 1995 .",
+        "reference": "The New York City Housing Authority Police Department was a law enforcement agency in New York City from 1952 to 1995 .",
+        "prediction": "The New York City Housing Authority Police Department was a police agency in New York City that operated from 1952 to 1995."
+    },
+    {
+        "id": 120,
+        "complex": "The female equivalent is a daughter .",
+        "reference": "The female equivalent is a daughter .",
+        "prediction": "A daughter is the female version of this."
+    },
+    {
+        "id": 259,
+        "complex": "A town may be correctly described as a market town or as having market rights even if it no longer holds a market , provided the right to do so still exists .",
+        "reference": "A town may be correctly identified by a market or as having market rights even if it no longer holds a market , provided the right to do so still exists .",
+        "prediction": "A town can still be accurately called a market town, or said to have market rights, even if it no longer holds a market, as long as the legal right to hold one still exists."
+    },
+    {
+        "id": 309,
+        "complex": "He bolted from Sydney Cove several times before being shot dead in 1796 .",
+        "reference": "He bolted from Sydney Cove many times before being shot dead in 1796 .",
+        "prediction": "He ran away from Sydney Cove several times before he was shot and killed in 1796 ."
+    },
+    {
+        "id": 14,
+        "complex": "However , the BZÖ differs a bit in comparison to the Freedom Party , as is in favor of a referendum about the Lisbon Treaty but against an EU-Withdrawal .",
+        "reference": "However , the BZO is different from a bit in comparison to the Freedom Party , as is in kind act of a referendum about the Lisbon Treaty but against a EU-Withdrawal",
+        "prediction": "However, the BZÖ is slightly different from the Freedom Party because it supports a referendum on the Lisbon Treaty, but it opposes withdrawing from the EU."
+    },
+    {
+        "id": 288,
+        "complex": "The collapsed dome of the main church has been restored entirely .",
+        "reference": "The collapsed dome of the main church has been restored entirely .",
+        "prediction": "The fallen roof of the main church has been completely repaired."
+    },
+    {
+        "id": 102,
+        "complex": "Furthermore , research has shown children are less likely to report a crime if it involves someone that he or she knows , trusts , and / or cares about .",
+        "reference": "Furthermore , research has shown children are less likely to report a crime if it involves someone that he or she knows , trusts , and / or cares about .",
+        "prediction": "Additionally, research shows that children are less likely to report a crime if it involves someone they know, trust, or care about."
+    },
+    {
+        "id": 333,
+        "complex": "He toured with the IPO in the spring of 1990 for their first-ever performance in the Soviet Union , with concerts in Moscow and Leningrad , and toured with the IPO again in 1994 , performing in China and India .",
+        "reference": "for their first-ever performance in the Soviet Union he toured with the IPO spring from 1990 to 1994 with china and india",
+        "prediction": "In the spring of 1990, he toured with the IPO for their very first performance in the Soviet Union, holding concerts in Moscow and Leningrad. He toured with the IPO again in 1994, performing in China and India."
+    },
+    {
+        "id": 215,
+        "complex": "By most accounts , the instrument was nearly impossible to control .",
+        "reference": "It was nearly impossible to control the instrument , by most accounts .",
+        "prediction": "Most people agreed that the instrument was nearly impossible to control."
+    },
+    {
+        "id": 113,
+        "complex": "The current lineup of the band comprises Flynn -LRB- vocals , guitar -RRB- , Duce -LRB- bass -RRB- , Phil Demmel -LRB- guitar -RRB- , and Dave McClain -LRB- drums -RRB- .",
+        "reference": "The current lineup of the band comprises Flynn -LRB- vocals , guitar -RRB- , Duce -LRB- bass -RRB- , Phil Demmel -LRB- guitar -RRB- , and Dave McClain -LRB- drums -RRB-",
+        "prediction": "The current members of the band are Flynn (vocals, guitar), Duce (bass), Phil Demmel (guitar), and Dave McClain (drums)."
+    },
+    {
+        "id": 230,
+        "complex": "Small value inductors can also be built on integrated circuits using the same processes that are used to make transistors .",
+        "reference": "Both small value inductors and transistors can be built on integrated circuits .",
+        "prediction": "Small inductors with low values can also be manufactured on integrated circuits using the same manufacturing processes used to produce transistors."
+    },
+    {
+        "id": 302,
+        "complex": "In April 2000 , MINIX became free / open source software under a permissive free software licence , but by this time other operating systems had surpassed its capabilities , and it remained primarily an operating system for students and hobbyists .",
+        "reference": "In April 2000 , MINIX became free or open source software under a non-restrictive free software licence , but by this time other operating systems had exceeded its capabilities , and it continued to be mainly an operating system for students and hobbyists .",
+        "prediction": "In April 2000, MINIX became free and open source software under a permissive license. However, by that time, other operating systems had already surpassed its capabilities, so it remained mainly an operating system for students and hobbyists."
+    },
+    {
+        "id": 143,
+        "complex": "Below are some useful links to facilitate your involvement .",
+        "reference": "Below are some useful links to help your involvement .",
+        "prediction": "Here are some helpful links to help you get involved."
+    },
+    {
+        "id": 4,
+        "complex": "His next work , Saturday , follows an especially eventful day in the life of a successful neurosurgeon .",
+        "reference": "His next work at Saturday will be a successful neurosurgeon .",
+        "prediction": "His next book, *Saturday*, tells the story of one very eventful day in the life of a successful neurosurgeon."
+    }
+]
