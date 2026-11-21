@@ -2,12 +2,6 @@
 
 **HAI principle:** User Control and Agency. The model must never run merely because a user pastes text or changes a preference. Each AI operation requires a separate, explicit user action. The original source is returned verbatim by the API and stays available in the interface.
 
-## Team scope
-
-- **Giovanni:** Backend, Gemini API, endpoint contracts, integration wiring, validation, errors/timeout, backend tests, technical run instructions, GitHub.
-- **Mina:** Knowledge/source grounding or RAG (if chosen), HAI/quality evaluation, evaluation harness, prompt/model versions.
-- **Nesma:** Visual design and UX, revised personas and journey maps, three-stage onboarding screens, keyboard/screen-reader accessibility, responsive layout. Giovanni supports implementation/API wiring after UX decisions.
-- **Malak:** Labeled test-set spreadsheet, Feature Choice Board, prompt log, demo recording/script and submission coordination.
 
 ## Structure
 
