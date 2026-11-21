@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <title>Inclusive Reading Assistant · Your reading workspace</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+    <a class="skip-link" href="#inp">Skip to reading input</a>
+    <div class="app" id="app">
+        <aside id="side" aria-label="Reading settings and controls">
+            <button id="closeSettings" class="mobile-settings-close" type="button">Close settings &amp; return to chat</button>
+            <div class="sidebar-brand">
+              <div class="sidebar-logo" aria-hidden="true"><span>i</span><span>r</span><b>✳</b></div>
+              <div class="sidebar-brand-copy"><strong>inclusive<span>.</span></strong><small>READING ASSISTANT</small></div>
+            </div>
+            <div class="sidebar-kicker"><span class="kicker-dot"></span> YOUR PERSONAL WORKSPACE</div>
+            <div class="sidebar-intro">Tools that adapt to <em>your</em> way of reading.</div>
+            <div class="sidebar-actions">
+            <button class="sb-btn new-session" id="newChat"><span class="sidebar-action-icon">＋</span> New session</button>
+            <button class="sb-btn" id="openTourSide"><span class="sidebar-action-icon">◈</span> Replay onboarding</button>
+            </div><div class="sidebar-divider"></div>
+            <h2 class="sidebar-label">01 / Reading tools <span>Optional</span></h2>
+            <label class="fn"><input type="checkbox" id="fSim"><span><b>Simplify</b><br><small>Clearer English, same
+                        meaning</small></span></label>
+            <label class="fn"><input type="checkbox" id="fSum"><span><b>Summarize</b><br><small>Main ideas
+                        only</small></span></label>
+            <label class="fn"><input type="checkbox" id="fExp"><span><b>Highlight terms</b><br><small>Explanation only
+                        when you click a term</small></span></label>
+            <div class="ver">If none is ticked, I will ask you what you want. Nothing runs by itself.</div>
+            <h2 class="sidebar-label">02 / Output preferences</h2>
+            <label class="s">Reading level <select id="pLvl">
+                    <option value="base">Standard</option>
+                    <option value="simpler">Simpler</option>
+                </select></label>
+            <label class="s">Summary length <select id="pLen">
+                    <option value="2">Medium</option>
+                    <option value="1">Short</option>
+                    <option value="3">Detailed</option>
+                </select></label>
+            <h2 class="sidebar-label">03 / Reading comfort</h2>
+            <label class="s">Font <select id="aFont">
+                    <option value="">Default</option>
+                    <option value="Verdana,Tahoma,sans-serif">Verdana</option>
+                    <option value="Georgia,serif">Serif</option>
+                    <option value="'Trebuchet MS',sans-serif">Rounded</option>
+                </select></label>
+            <label class="s">Size <input type="range" id="aSize" min="14" max="28" value="16"></label>
+            <label class="s">Spacing <input type="range" id="aLH" min="12" max="24" value="16"></label>
+            <label class="s">Line length <input type="range" id="aW" min="40" max="100" value="80"></label>
+            <label class="s">Background <select id="aBg">
+                    <option value="">Theme</option>
+                    <option value="#ffffff|#111111">White</option>
+                    <option value="#faf3e0|#222222">Cream</option>
+                    <option value="#fff7b8|#222222">Soft yellow</option>
+                    <option value="#10131a|#eceff4">Dark</option>
+                </select></label>
+            <h2 class="sidebar-label">04 / Version history</h2>
+            <div id="vers" class="ver">None yet. The original is always kept.</div>
+            <div class="sidebar-footer"><div class="footer-mark">✳</div><span>Designed for thoughtful reading.<br><strong>You make every choice.</strong></span></div>
+        </aside>
+        <div class="chat">
+            <header class="top">
+                <button class="ic" id="tog" aria-label="Show or hide reading settings" aria-expanded="true" aria-controls="side"><span aria-hidden="true">☰</span></button>
+                <div class="brand-mark" aria-hidden="true">✳</div>
+                <div class="header-title"><span class="header-kicker">WORKSPACE / READING SESSION</span><h1>Reading studio</h1></div>
+                <div class="header-actions"><span class="agency-tag"><span class="agency-dot"></span> You’re in control</span><button class="quiet source-mobile" id="openSource" aria-controls="sourcePanel" aria-expanded="false">Original</button><button class="quiet tour-btn" id="openTour">ⓘ &nbsp; Tour / Help</button></div>
+            </header>
+            <div id="guidedHint" hidden role="status"><span><strong>Guided practice:</strong> Sample text is ready. Choose <strong>Simplify</strong> in the chat when you want to try it. Nothing runs automatically.</span><button id="skipGuided">Skip practice</button></div>
+            <main id="msgs" role="log" aria-label="Chat messages" aria-live="polite" aria-relevant="additions" aria-atomic="false">
+                <div class="workspace-intro" aria-hidden="true"><span>YOUR AI READING ASSISTANT</span><span>✦ &nbsp; EXPLORE AT YOUR PACE</span></div>
+                <div class="wrap" id="wrap"></div>
+            </main>
+            <div id="statusMessage" role="status" aria-live="polite" aria-atomic="true"></div>
+            <div class="comp"><div class="composer-title"><span class="composer-spark" aria-hidden="true">✳</span><strong>Your reading starts here</strong><span class="composer-note">Nothing runs without your request</span></div>
+                <div class="cbox">
+                    <button class="ic attachment" id="upBtn" aria-label="Upload TXT or MD file" title="Upload TXT or MD file"><svg aria-hidden="true" viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="m20.3 11.7-8.5 8.5a5 5 0 0 1-7.1-7.1L13 4.8a3.3 3.3 0 0 1 4.7 4.7L9.3 17.9a1.6 1.6 0 0 1-2.3-2.3l7.7-7.7"/></svg></button>
+                    <input type="file" id="file" accept=".txt,.md" hidden>
+                    <textarea id="inp" rows="1" aria-label="Message"
+                        placeholder="Paste a paragraph, or ask for a reading action…"></textarea>
+                    <button class="send" id="send" type="button">Send</button>
+                </div>
+                <div class="composer-foot"><span>↵ Send &nbsp; · &nbsp; ⇧↵ New line</span><span>AI output may be wrong — verify against your original.</span></div>
+            </div>
+        </div>
+        <section class="source-panel" id="sourcePanel" role="region" aria-labelledby="sourceTitle">
+            <div class="source-heading"><div class="eyebrow"><span class="source-indicator">●</span> SOURCE DOCUMENT</div>
+              <h2 id="sourceTitle">Your original text <span aria-hidden="true">↗</span></h2>
+              <div class="source-caption" id="sourceMeta">No text loaded yet.</div></div>
+            <div class="source-intro">The source remains untouched — select a phrase to explain it.</div>
+            <div class="source-text source-placeholder" id="sourceText" tabindex="0" aria-label="Original text; select a phrase to explain">Your original passage will appear here. Paste text, attach a TXT/MD file, or try the sample.</div>
+            <div class="source-tools"><div class="source-tool-label">SELECT & EXPLORE</div>
+            <label for="termInput">Explain a word or phrase</label>
+              <input type="text" id="termInput" placeholder="Type or select a phrase from the original" autocomplete="off" aria-describedby="termHint">
+              <div class="source-actions"><button class="primary" id="explainSelection" type="button">✦ Explain selected phrase</button><button class="quiet" id="closeSource" type="button">Close panel</button></div>
+              <p class="hint" id="termHint">Select text in the original passage, or type an exact phrase. Explanation runs only after you click the button.</p></div>
+        </section>
+    </div>
+    <div id="tour" hidden role="presentation">
+      <section class="tour-dialog" role="dialog" aria-modal="true" aria-labelledby="tourTitle" aria-describedby="tourDescription">
+          <div class="tour-illustration" aria-hidden="true"><div class="tour-ornament">✳</div><div class="tour-card-illus"><span class="illustration-line long"></span><span class="illustration-line"></span><span class="illustration-line short"></span><span class="illustration-line highlighted"></span></div><div class="tour-art-tag">READING, REIMAGINED</div></div>
+          <div class="tour-content">
+            <div class="tour-progress" aria-hidden="true"><span></span><span></span><span></span></div>
+            <div class="tour-label" id="tourStep">Stage 1 of 3</div>
+            <h2 id="tourTitle">See how it works</h2>
+            <div id="tourDescription"></div>
+            <div class="tour-row"><button class="quiet" id="tourSkip">Skip tour</button><button class="primary" id="tourNext">Next</button></div>
+          </div>
+      </section>
+    </div>
+    <script src="./app.js" defer></script>
+</body>
+
+</html>
