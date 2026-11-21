@@ -1,122 +1,169 @@
-# Inclusive Reading Assistant — Milestone 3 integrated prototype
+# Inclusive Reading Assistant
 
-**HAI principle:** User Control and Agency. The model must never run merely because a user pastes text or changes a preference. Each AI operation requires a separate, explicit user action. The original source is returned verbatim by the API and stays available in the interface.
+**Milestone 3 — Weeks 6–7 | Human–AI Interaction (HCAI)**  
+**HAI principle:** User Control and Agency
 
+Inclusive Reading Assistant is a web-based tool that helps university students work with difficult English academic text. Students can **simplify**, **summarize**, or **explain** content using Google Gemini through the team's own FastAPI backend.
 
-## Structure
+**The student stays in control:** pasting a passage, selecting a term, or changing a preference never triggers an AI request on its own. The student must explicitly select an action. The original text stays accessible, and AI-generated responses can be undone or replaced with the original.
+
+## Features
+
+- **Simplify:** rewrite a passage in clearer English while aiming to preserve its meaning.
+- **Summarize:** create a short, medium, or detailed summary.
+- **Explain:** explain a word or phrase from the original text in context.
+- **User control:** no automatic AI processing; explicit action buttons, **Undo**, **Restore original**, and **Retry**.
+- **Three-stage onboarding:** watch an example, try a guided task, then work independently with Help available.
+- **Accessible, responsive interface:** white-mode UI, reading preferences, keyboard-friendly controls, and mobile settings that do not cover the chat.
+- **Error recovery:** readable feedback for invalid input, unavailable services, and timeouts; guidance to academic support when assistance cannot be provided reliably.
+
+AI outputs can contain mistakes. Always compare results with the original academic source.
+
+## Repository structure
 
 ```text
-backend/
-  main.py                     FastAPI routes, model prompts, Gemini integration
-  requirements.txt            Runtime dependencies
-  requirements-dev.txt        Includes pytest + httpx
-  .env.example                Configuration template (no real key)
-  pytest.ini
-  scripts/live_smoke.py       Runs live, synthetic API checks (uses 3 Gemini calls)
-  tests/test_http.py          HTTP/OpenAPI tests with mocked model
-  tests/test_logic.py         Validation, prompts, failure-path tests
-frontend/
-  index.html                  Semantic page structure and UI components
-  styles.css                  Responsive visual design / themes / accessibility
-  app.js                      Onboarding, source handling, explicit user actions, API wiring
-  UI_ACCESSIBILITY_TEST_PLAN.md
-  tests/ui_smoke.py           Optional browser test with mocked Gemini API
-GIOVANNI_HANDOFF.md           Integration scope, tests and checklist
-NESMA_HANDOFF.md              Visual/UX/accessibility work for Nesma
-.gitignore                    Secrets, environments and caches excluded
+Inclusive-Reading-Assistant/
+├── backend/
+│   ├── main.py              # FastAPI routes, Gemini integration, validation, error handling
+│   ├── requirements.txt     # Python dependencies needed to run the backend
+│   ├── .env.example         # Safe configuration template (no real API key)
+│   └── scripts/
+│       └── live_smoke.py   # Optional live API checks
+├── frontend/
+│   ├── index.html           # Interface structure
+│   ├── styles.css           # White-mode design and responsive layout
+│   └── app.js               # Onboarding, UI actions, and API requests
+├── .gitignore               # Excludes secrets and local files
+└── README.md                # This file
 ```
 
-## Windows / VS Code setup
+The `tests/` folders are **not required to start or use the application** and may be omitted from this repository. If you do not upload the optional `backend/scripts/` folder, the website and API will still run normally.
 
-Open a *new terminal* in the **project root**.
+## Requirements
+
+- Python **3.11 or newer**
+- A valid **Google Gemini API key** from [Google AI Studio](https://aistudio.google.com/apikey)
+- A modern web browser (Microsoft Edge or Chrome recommended)
+
+## Setup and run on Windows (PowerShell)
+
+### 1. Start the backend
+
+Open the project folder in VS Code, then open a terminal in the project root:
 
 ```powershell
 cd backend
 py -m venv .venv
 .\.venv\Scripts\Activate.ps1
-python -m pip install -r requirements-dev.txt
+python -m pip install -r requirements.txt
 Copy-Item .env.example .env
 ```
 
-If PowerShell blocks activation, use `Set-ExecutionPolicy -Scope Process RemoteSigned` and retry. In `backend/.env`, set `GEMINI_API_KEY=...` using a **new valid key**; never upload this file. Do not share screenshots showing it. If an old key was included in a prior ZIP, revoke/rotate it.
+If PowerShell blocks virtual-environment activation, run this once in the current terminal, then activate again:
 
-Run the backend from the `backend` directory:
+```powershell
+Set-ExecutionPolicy -Scope Process -ExecutionPolicy RemoteSigned
+.\.venv\Scripts\Activate.ps1
+```
+
+If your GitHub copy does not contain `.env.example`, create a new file named **`.env`** locally inside `backend/` instead of running the `Copy-Item` command.
+
+Open **`backend/.env`** (the private file you created) and configure:
+
+```dotenv
+GEMINI_API_KEY=YOUR_VALID_GEMINI_API_KEY
+GEMINI_TIMEOUT_SECONDS=60
+```
+
+Replace the placeholder with your own key. **Never commit or share the `.env` file or a real key.** The `.env.example` file must contain placeholders only.
+
+Start FastAPI **from the `backend/` folder**:
 
 ```powershell
 python -m uvicorn main:app --reload
 ```
 
-Go to `http://127.0.0.1:8000/docs` for the API docs. In a *second terminal* from the project root, launch the redesigned frontend:
+The API documentation is available at **http://127.0.0.1:8000/docs**.
+
+### 2. Start the frontend
+
+Leave the backend terminal running. Open **a second terminal** from the project root:
 
 ```powershell
 cd frontend
 py -m http.server 5500
 ```
 
-Open `http://127.0.0.1:5500` (do **not** open the HTML with a `file://` URL). The frontend talks to `http://127.0.0.1:8000`.
+Open **http://127.0.0.1:5500** in your browser.
 
-## Test locally
+> Run the frontend through its local web server, not by double-clicking `index.html`. The frontend makes requests to `http://127.0.0.1:8000` (configured in `frontend/app.js`). Keep both terminals open while using the application.
 
-From the `backend` directory:
+## How to use the app
 
-```powershell
-python -m pytest -q
+1. Open the website and follow or skip the three-stage onboarding.
+2. Click **Try sample text**, paste a passage, or upload a `.txt` / `.md` file.
+3. Choose **Simplify**, **Summarize**, or **Explain**. No AI request is sent just by loading the text.
+4. Read the AI response and compare it with the original text in the source panel.
+5. Use **Undo**, **Restore original**, **Retry**, or **Help** as needed.
+
+For **Explain**, select a phrase from the source text or enter an exact phrase contained in that source, then click **Explain selected phrase**.
+
+## Backend API
+
+| Method | Endpoint | Purpose | Required request fields |
+| --- | --- | --- | --- |
+| `GET` | `/` | Backend status | — |
+| `POST` | `/simplify` | Simplify text | `text`, `user_action: true`; optional `level` (`base`, `simpler`, `closer`) |
+| `POST` | `/summarize` | Summarize text | `text`, `user_action: true`; optional `length` (`1`, `2`, `3`) |
+| `POST` | `/explain` | Explain text or a term | `text`, `user_action: true`; optional `term` and `style` (`default`, `example`, `technical`) |
+
+Example request for **`POST /simplify`**:
+
+```json
+{
+  "text": "The intervention reduced reading time but did not improve comprehension.",
+  "user_action": true,
+  "level": "base"
+}
 ```
 
-These tests use a mocked model (offline). They check HTTP status handling, request schemas, user control (including no model call when `user_action` is false), error messages, and OpenAPI contracts. Tests alone do **not** prove that a live Gemini call or the real browser works.
+A successful Simplify response includes `original_text`, `simplified_text`, and `level`. The other endpoints return `original_text` with `summary` / `explanation` and their selected options.
 
-With a configured running backend, the following will send **three live Gemini requests** using **synthetic** text, then exercise negative-input paths:
+**Error codes:** `400` for rejected actions or invalid terms, `422` for invalid request data, `502` for upstream AI errors, `503` if the API key is not configured, and `504` if the model request times out.
 
-```powershell
-python scripts/live_smoke.py
-```
+## Quick manual checks
 
-A successful result verifies 200 + required JSON fields on Simplify, Summarize and Explain, 400 for blocked operations, and preservation of original text. Check semantic quality manually as well.
+After starting both servers:
 
-## Routes and contract
+1. Load sample text without selecting an AI action — **nothing should be generated automatically**.
+2. Run Simplify and check for a real response from the backend.
+3. Run Summarize and Explain.
+4. Click **Restore original** and confirm the original is unchanged.
+5. Stop the backend, request an action, restart the backend, then click **Retry**.
+6. View the app at mobile width and check that opening settings **does not cover the chat**.
 
-| Method | Path | JSON | Response keys |
-|---|---|---|---|
-| POST | `/simplify` | `text`, `user_action: true`, `level: base/simpler/closer` | `original_text`, `simplified_text`, `level` |
-| POST | `/summarize` | `text`, `user_action: true`, `length: 1/2/3` | `original_text`, `summary`, `length` |
-| POST | `/explain` | `text`, `user_action: true`, optional `term` in text, `style: default/example/technical` | `original_text`, `explanation`, `style`, optional `term` |
+These checks help confirm the working demo. They do not replace a separate evaluation of AI answer quality.
 
-Errors: HTTP `400` blocked/invalid user action or term; `422` schema error; `502` upstream failure/empty output; `503` missing configuration; `504` timeout. Swagger now documents each of these statuses.
+## Current limitations
 
-The interface also provides `Retry`, `Restore original`, `Undo` and a fallback pointing to a human/official academic source. **Fallback is not live human messaging** and should never be presented as such.
+- English text only; **PDF, DOCX, and image reading are not implemented** in this demo.
+- Uploaded text files are limited to `.txt` and `.md`; text requests have a maximum of **12,000 characters**.
+- The assistant cannot independently verify the truth of a source or guarantee accurate AI output.
+- `user_action` is an API contract; actual user control also depends on the frontend's explicit-click behavior.
+- Human handover is **guidance to a teacher, teaching assistant, or academic support service**, not a live transfer to a person.
+- This is a local educational prototype, not a production deployment with authentication or rate limiting.
 
-## Implementation vs future work
+## Team scope
 
-- **Functional integration improvements retained in this handoff:** checkbox preferences no longer auto-trigger AI; explicit action chips trigger the request; retry replays the actual failed request; original stays available; after repeated request failures the user is offered a manual academic support option; unsupported upload file formats are no longer advertised in the picker. The redesign is now implemented as separate HTML/CSS/JS files.
-- **Known limitations:** Gemini may return an inaccurate paraphrase; quality and grounding metrics are Mina's work. The backend `user_action` boolean is a contract, **not proof of a physical click** unless confirmed in UI testing. Timeout stops awaiting but cannot guarantee cancellation of a model call already running. Text length max 12,000 characters; PDF/DOCX/image extraction is **not implemented**. Suggested clickable term highlights include predefined phrases, but the source panel also supports selecting or typing any exact phrase from the original for explanation.
-- **Onboarding and responsive design:** implemented in the redesigned frontend; final manual accessibility audits (NVDA, 200% zoom, keyboard checks) still need team acceptance.
-- **Deployment:** This is a local demonstration, not a production security-hardened service. It does not include auth, quota controls or rate limiting.
+- **Giovanni:** Backend and Gemini API integration, endpoint contracts, frontend–backend wiring, input validation, error and timeout handling, backend tests, technical run instructions, and GitHub integration.
+- **Menna Haitham:** Contributed to backend development and implementation alongside Giovanni.
+- **Mina:** Knowledge/source grounding or RAG (if chosen), HAI and response-quality evaluation, evaluation harness, and prompt/model version documentation.
+- **Nesma:** Frontend visual design and UX, revised personas and journey maps, three-stage onboarding, keyboard and screen-reader accessibility, and responsive layout. Giovanni supports implementation/API wiring when needed.
+- **Malak:** Labeled test-set spreadsheet, Feature Choice Board, prompt log, demo recording and script, and submission coordination.
 
-## GitHub requirements
+## GitHub and submission notes
 
-- Never commit `backend/.env`, `.venv/`, keys or chat recordings containing personal information.
-- Confirm first: `git status --short` and `git diff --cached --name-only`.
-- The repo must contain runnable backend code and this README, and each member must commit from their own account within the submission period.
-- The ZIP here is just a transfer of source; **submission is the team's existing GitHub repository**, not a ZIP or slide image.
-
-## Nesma frontend redesign (Weeks 6–7)
-
-The split frontend (`frontend/index.html`, `frontend/styles.css`, `frontend/app.js`) includes a **three-stage onboarding** (static demonstration → guided opt-in practice → independent use), persistent original-text panel on desktop / openable on mobile, a label-driven field to explain any exact phrase in the source, explicit consent without auto-running Gemini, visible focus, status text, readable spacing, mobile layout, and accessibility controls. No API endpoint contract was changed.
-
-For step-by-step UI verification see `frontend/UI_ACCESSIBILITY_TEST_PLAN.md`; optional Playwright-based mocked UI tests are in `frontend/tests/ui_smoke.py`. The main design pack (editable Word + PDF) is stored separately in this handoff bundle, for the Drive submission. Team acceptance still needs real Gemini verification against this revised frontend, keyboard-only / screen-reader / 200% zoom testing and final QA.
-
-
-### What changed in the design-only revision
-
-- Clean white-mode reading-tools sidebar, clearer preferences, responsive reading workspace, and separate source-document pane.
-- More prominent greeting and "you are in control" message; visual, keyboard-accessible three-stage tutorial.
-- The prior working API endpoints, request schemas, Retry, Undo, Restore Original and no-auto-run flow were preserved. Gemini API keys remain in the local backend only.
-- HTML, CSS and JavaScript are now in **three separate files**. Keep all three inside the `frontend/` folder when copying to GitHub. They rely on relative paths `./styles.css` and `./app.js`.
-- Backend regression: **41 automated tests passed**. Browser mock test covers three-stage onboarding, all 3 actions, Retry, Restore Original, mobile source drawer, and no auto-run. **Live Gemini + final manual accessibility verification still needed after merging.**
-
-### White-mode responsive fix (21 November 2026)
-
-- The application now stays in White Mode independently of the operating-system dark-mode preference. The optional reading background selector still affects chosen output text only.
-- On viewports 900px wide and below, Settings is collapsed on first load. Tapping the menu expands a capped-height section **above** the chat instead of covering it. A Close settings button returns focus to the menu.
-- Verified with headless Chromium at 320, 390, 600, 768 and 900px widths: no sidebar/chat overlap or horizontal overflow. Frontend interactive flow verified using mocked Gemini replies (not a live Gemini test).
-- Images in `Design_Deliverables/` are captured from the delivered HTML/CSS/JS rendered in Chromium, not separately produced concept art; guided-practice AI replies in screenshot-only scenarios are simulated.
+- Commit the **`backend/`**, **`frontend/`**, **`.gitignore`**, and **`README.md`** files at the repository root.
+- Do **not** upload `.env`, `.venv/`, cached files, or API keys.
+- Use the **existing team repository**. Each team member needs a commit from their own GitHub account during Weeks 6–7.
+- Submit the design pack, test set, prompt log, demo video, and demo script separately to the team's **Drive / Week 6-7** folder using the instructor's required file names.
