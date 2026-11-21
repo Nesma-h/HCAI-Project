@@ -1,6 +1,0 @@
-﻿sample_id,original_text,reference_text,generated_text,success,status_code,error,response_time
-1,Machine learning is a field of artificial intelligence that enables computers to learn from data.,Computers can learn from data using machine learning.,Machine learning is a part of artificial intelligence. It helps computers learn from data.,True,200,,3.689
-2,Photosynthesis is the process by which plants convert light into chemical energy.,Plants use light to make food.,Plants use photosynthesis. Photosynthesis is the process. Plants convert light into chemical energy by this process.,True,200,,3.012
-3,The human heart is a muscular organ that pumps blood throughout the body.,The heart is a muscle that pumps blood around the body.,The human heart is a muscular organ. It pumps blood throughout the body.,True,200,,2.79
-4,Climate change refers to long-term shifts in temperatures and weather patterns.,Climate change means long-term changes in weather and temperature.,Climate change means long-term shifts in temperatures and weather patterns.,True,200,,2.693
-5,Democracy is a system of government in which citizens exercise power through voting.,Democracy is a system where people choose their leaders by voting.,"Democracy is a system of government. In this system, citizens exercise power. They do this through voting.",True,200,,4.073

@@ -1,8 +1,0 @@
-{
-    "dataset": "WikiLarge",
-    "total_valid_samples": 200,
-    "SARI": 37.27024508075748,
-    "BLEU": 29.65524580231446,
-    "ROUGE_L": 0.6257090691876313,
-    "Flesch_Reading_Ease": 66.52980863473702
-}
