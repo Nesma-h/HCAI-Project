@@ -153,13 +153,6 @@ These checks help confirm the working demo. They do not replace a separate evalu
 - Human handover is **guidance to a teacher, teaching assistant, or academic support service**, not a live transfer to a person.
 - This is a local educational prototype, not a production deployment with authentication or rate limiting.
 
-## Team scope
-
-- **Giovanni:** Backend and Gemini API integration, endpoint contracts, frontend–backend wiring, input validation, error and timeout handling, backend tests, technical run instructions, and GitHub integration.
-- **Menna Haitham:** Contributed to backend development and implementation alongside Giovanni.
-- **Mina:** Knowledge/source grounding or RAG (if chosen), HAI and response-quality evaluation, evaluation harness, and prompt/model version documentation.
-- **Nesma:** Frontend visual design and UX, revised personas and journey maps, three-stage onboarding, keyboard and screen-reader accessibility, and responsive layout. Giovanni supports implementation/API wiring when needed.
-- **Malak:** Labeled test-set spreadsheet, Feature Choice Board, prompt log, demo recording and script, and submission coordination.
 
 ## GitHub and submission notes
 
