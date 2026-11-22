@@ -1,0 +1,2002 @@
+[
+    {
+        "test_id": "WL_0000",
+        "original_text": "Samovar & Porter -LRB- 1994 -RRB- , p . 84 Syrians did not congregate in urban enclaves ; many of the immigrants who had worked as peddlers were able to interact with Americans on a daily basis .",
+        "reference_text": "Samovar & Porter -LRB- 1994 -RRB- , p. 84 Syrians did not get together in city groups ; many of the immigrants who had worked as sellers on the street were able to talk with Americans every day .",
+        "generated_text": "Syrians did not live together in separate city neighborhoods. Many of these immigrants worked as peddlers. Because of this, they were able to talk and deal with Americans every day.",
+        "success": true,
+        "status_code": 200,
+        "response_time": 4.425,
+        "error": NaN
+    },
+    {
+        "test_id": "WL_0001",
+        "original_text": "The island chain forms part of the Hebrides , separated from the Scottish mainland and from the Inner Hebrides by the stormy waters of the Minch , the Little Minch and the Sea of the Hebrides .",
+        "reference_text": "The island chain forms part of the Hebrides , separated from the Scottish mainland and from the Inner Hebrides by the stormy waters of the Minch , the Little Minch and the Sea of the Hebrides .",
+        "generated_text": "These islands are part of the Hebrides. They are separated from the Scottish mainland and from the Inner Hebrides. This separation is caused by the stormy waters of the Minch, the Little Minch, and the Sea of the Hebrides.",
+        "success": true,
+        "status_code": 200,
+        "response_time": 2.8,
+        "error": NaN
+    },
+    {
+        "test_id": "WL_0002",
+        "original_text": "The compact and intense hurricane caused extreme damage in the upper Florida Keys , as a storm surge of approximately 18 to 20 feet affected the region .",
+        "reference_text": "Small , but intense , the hurricane caused a lot of damage in the upper Florida keys when a surge of nearly 18 to 20 feet hit the area .",
+        "generated_text": "A hurricane was small and very strong. It caused extreme damage in the upper Florida Keys. A storm surge of about 18 to 20 feet hit the area.",
+        "success": true,
+        "status_code": 200,
+        "response_time": 7.137,
+        "error": NaN
+    },
+    {
+        "test_id": "WL_0003",
+        "original_text": "The body color varies from medium brown to gold-ish to beige-white ; and occasionally , is marked with dark brown spots , especially on the limbs .",
+        "reference_text": "The body color varies from medium brown to goldish to beige-white and sometimes is marked with dark brown spots .",
+        "generated_text": "The body color changes. It can be medium brown, gold-ish, or beige-white. Sometimes, the body has dark brown spots. These spots are usually found on the limbs.",
+        "success": true,
+        "status_code": 200,
+        "response_time": 2.874,
+        "error": NaN
+    },
+    {
+        "test_id": "WL_0004",
+        "original_text": "This was the area east of the mouth of the Vistula River , later sometimes called '' Prussia proper '' .",
+        "reference_text": "This area , which later was sometimes called '' Prussia proper '' , was east of the place where the Vistula River begins .",
+        "generated_text": "This was the area east of the mouth of the Vistula River. People later sometimes called it \"Prussia proper.\"",
+        "success": true,
+        "status_code": 200,
+        "response_time": 2.783,
+        "error": NaN
+    },
+    {
+        "test_id": "WL_0005",
+        "original_text": "Frédéric Chopin 's Opus 57 is a berceuse for solo piano .",
+        "reference_text": "Frédéric Chopin 's Opus 57 is a music for individual piano .",
+        "generated_text": "Frédéric Chopin wrote Opus 57. It is a berceuse. It is for solo piano.",
+        "success": true,
+        "status_code": 200,
+        "response_time": 6.338,
+        "error": NaN
+    },
+    {
+        "test_id": "WL_0006",
+        "original_text": "In 1987 Wexler was inducted into the Rock and Roll Hall of Fame .",
+        "reference_text": "In 1987 Wexler was inducted into the Rock and Roll Hall of Fame .",
+        "generated_text": "In 1987, Wexler entered the Rock and Roll Hall of Fame.",
+        "success": true,
+        "status_code": 200,
+        "response_time": 3.627,
+        "error": NaN
+    },
+    {
+        "test_id": "WL_0007",
+        "original_text": "After graduation he returned to Yerevan to teach at the local Conservatory and later he was appointed artistic director of the Armenian Philarmonic Orchestra .",
+        "reference_text": "fter graduation he came back to Yerevan to teach at the local Conservatory and then he was appointed artistic director of the Armenian Philarmonic Orchestra .",
+        "generated_text": "After graduation he went back to Yerevan. \nHe taught at the local Conservatory. \nLater, he was made the artistic director of the Armenian Philharmonic Orchestra.",
+        "success": true,
+        "status_code": 200,
+        "response_time": 4.13,
+        "error": NaN
+    },
+    {
+        "test_id": "WL_0008",
+        "original_text": "Other nearby settlements include Pont-Bellanger and Beaumesnil .",
+        "reference_text": "Other nearby houses colonies include Pont-Bellanger and Beaumesnil .",
+        "generated_text": "Other nearby settlements include Pont-Bellanger and Beaumesnil.",
+        "success": true,
+        "status_code": 200,
+        "response_time": 3.48,
+        "error": NaN
+    },
+    {
+        "test_id": "WL_0009",
+        "original_text": "The two former presidents were later separately charged with mutiny and treason for their roles in the 1979 coup and the 1980 Gwangju massacre .",
+        "reference_text": "The two former presidents were later charged , each on their own , with mutiny and treason for their roles in the 1979 coup and the 1980 Gwangju massacre .",
+        "generated_text": "Two former presidents were charged later. They were charged separately. The charges were mutiny and treason. These charges were for their roles in two events. The first event was the 1979 coup. The second event was the 1980 Gwangju massacre.",
+        "success": true,
+        "status_code": 200,
+        "response_time": 3.397,
+        "error": NaN
+    },
+    {
+        "test_id": "WL_0010",
+        "original_text": "Take the square root of the variance .",
+        "reference_text": "Take the square root of the variance .",
+        "generated_text": "Calculate the square root of the variance.",
+        "success": true,
+        "status_code": 200,
+        "response_time": 8.213,
+        "error": NaN
+    },
+    {
+        "test_id": "WL_0011",
+        "original_text": "This quantitative measure indicates how much of a particular drug or other substance -LRB- inhibitor -RRB- is needed to inhibit a given biological process -LRB- or component of a process , i.e. an enzyme , cell , cell receptor or microorganism -RRB- by half .",
+        "reference_text": "This quantitative measure indicates how much of a drug or other substance is needed to inhibit a biological process by half .",
+        "generated_text": "This is a quantitative measure. It shows how much of a drug or other substance, called an inhibitor, is needed. It is the amount needed to stop a biological process by half. This can also be a component of a process. Examples are an enzyme, cell, cell receptor, or microorganism.",
+        "success": true,
+        "status_code": 200,
+        "response_time": 4.007,
+        "error": NaN
+    },
+    {
+        "test_id": "WL_0012",
+        "original_text": "Protests across the nation were suppressed .",
+        "reference_text": "Protests across the nation were stopped .",
+        "generated_text": "Protests across the nation were suppressed .",
+        "success": true,
+        "status_code": 200,
+        "response_time": 2.943,
+        "error": NaN
+    },
+    {
+        "test_id": "WL_0013",
+        "original_text": "Most of the songs were written by Richard M. Sherman and Robert B. Sherman .",
+        "reference_text": "Most of the songs were written by Richard M. and Robert B. Sherman .",
+        "generated_text": "Richard M. Sherman and Robert B. Sherman wrote most of the songs.",
+        "success": true,
+        "status_code": 200,
+        "response_time": 3.263,
+        "error": NaN
+    },
+    {
+        "test_id": "WL_0014",
+        "original_text": "The female equivalent is a daughter .",
+        "reference_text": "The female equivalent is a daughter .",
+        "generated_text": "The female equivalent is a daughter.",
+        "success": true,
+        "status_code": 200,
+        "response_time": 7.518,
+        "error": NaN
+    },
+    {
+        "test_id": "WL_0015",
+        "original_text": "Because the owner tends to be unaware , these computers are metaphorically compared to zombies .",
+        "reference_text": "these computers are metaphorically compared to zombies as the owner was not concious about it",
+        "generated_text": "These computers are compared to zombies. This is because the owner usually does not know it.",
+        "success": true,
+        "status_code": 200,
+        "response_time": 6.216,
+        "error": NaN
+    },
+    {
+        "test_id": "WL_0016",
+        "original_text": "In late 2004 , Suleman made headlines by cutting Howard Stern 's radio show from four Citadel stations , citing Stern 's frequent discussions regarding his upcoming move to Sirius Satellite Radio .",
+        "reference_text": "In late 2004 , Suleman made headlines by cutting Howard Stern 's radio direct relay from four Citadel stations , citing Stern 's frequent discussions regarding his upcoming move to Sirius Satellite Radio .",
+        "generated_text": "In late 2004, Suleman made the news. He cut Howard Stern's radio show from four Citadel stations. He gave a reason for this. Stern often talked about his coming move to Sirius Satellite Radio.",
+        "success": true,
+        "status_code": 200,
+        "response_time": 3.38,
+        "error": NaN
+    },
+    {
+        "test_id": "WL_0017",
+        "original_text": "The singles from the album included '' By the Way '' , '' The Zephyr Song '' , '' Ca n't Stop '' , '' Dosed '' and '' Universally Speaking '' .",
+        "reference_text": "Some singles from the album are : '' By the Way '' , '' The Zephyr Song , '' Ca n't Stop ' , '' Dosed '' , and '' Universally Speaking '' .",
+        "generated_text": "The singles from the album included \"By the Way\", \"The Zephyr Song\", \"Can't Stop\", \"Dosed\", and \"Universally Speaking\".",
+        "success": true,
+        "status_code": 200,
+        "response_time": 3.33,
+        "error": NaN
+    },
+    {
+        "test_id": "WL_0018",
+        "original_text": "Cogeneration -LRB- also combined heat and power , CHP -RRB- is the use of a heat engine or a power station to simultaneously generate both electricity and useful heat .",
+        "reference_text": "Cogeneration is a combination of heart and power to simultaneously generate both electricity and useful heat .",
+        "generated_text": "Cogeneration is also called combined heat and power, or CHP. It is the use of a heat engine or a power station. It makes electricity and useful heat at the same time.",
+        "success": true,
+        "status_code": 200,
+        "response_time": 2.879,
+        "error": NaN
+    },
+    {
+        "test_id": "WL_0019",
+        "original_text": "There he had one daughter , later baptized as Mary Ann Fisher Power , to Ann -LRB- e -RRB- Power .",
+        "reference_text": "He had one daughter named Mary Ann Fisher Power who was later baptized to Ann -LRB- e -RRB- Power .",
+        "generated_text": "While he was there, he had one daughter with Ann (e) Power. This daughter was later baptized with the name Mary Ann Fisher Power.",
+        "success": true,
+        "status_code": 200,
+        "response_time": 5.351,
+        "error": NaN
+    },
+    {
+        "test_id": "WL_0020",
+        "original_text": "On occasion the male '' den master '' will also allow a second male into the den ; the reason for this is unclear .",
+        "reference_text": "On opportunity the male '' den master '' will let a second male inside of the den ; the basis for this is poorly explained .",
+        "generated_text": "Sometimes the male \"den master\" will also let a second male into the den. The reason for this is unclear.",
+        "success": true,
+        "status_code": 200,
+        "response_time": 5.274,
+        "error": NaN
+    },
+    {
+        "test_id": "WL_0021",
+        "original_text": "Defiantly , she vowed to never renounce the Commune , and dared the judges to sentence her to death .",
+        "reference_text": "She refused to give up the Commune and prefered the death sentence",
+        "generated_text": "She bravely promised to never give up the Commune. She dared the judges to give her the death penalty.",
+        "success": true,
+        "status_code": 200,
+        "response_time": 2.798,
+        "error": NaN
+    },
+    {
+        "test_id": "WL_0022",
+        "original_text": "Color ranges from orange to pale yellow .",
+        "reference_text": "Color choices are from orange to pale yellow .",
+        "generated_text": "The color goes from orange to pale yellow.",
+        "success": true,
+        "status_code": 200,
+        "response_time": 6.514,
+        "error": NaN
+    },
+    {
+        "test_id": "WL_0023",
+        "original_text": "The British decided to eliminate him and take the land by force .",
+        "reference_text": "The British decided to put an end to him and take the land by force .",
+        "generated_text": "The British decided to kill him. They also decided to take the land by force.",
+        "success": true,
+        "status_code": 200,
+        "response_time": 4.089,
+        "error": NaN
+    },
+    {
+        "test_id": "WL_0024",
+        "original_text": "A fee is the price one pays as remuneration for services , especially the honorarium paid to a doctor , lawyer , consultant , or other member of a learned profession .",
+        "reference_text": "A fee is the cost one pays as remuneration for services , especially the honorarium paid to a doctor , lawyer , consultant , or other member of a learned profession .",
+        "generated_text": "A fee is the price you pay to pay for services. It is especially the honorarium paid to a doctor, lawyer, consultant, or other member of a learned profession.",
+        "success": true,
+        "status_code": 200,
+        "response_time": 2.655,
+        "error": NaN
+    },
+    {
+        "test_id": "WL_0025",
+        "original_text": "A matchbook is a small cardboard folder -LRB- matchcover -RRB- enclosing a quantity of matches and having a coarse striking surface on the exterior .",
+        "reference_text": "A matchbook is a small cardboard folder -LRB- or matchcover -RRB- that holds some matches and has a rough area on the outside .",
+        "generated_text": "A matchbook is a small cardboard folder, also called a matchcover. It holds a number of matches. It has a rough striking surface on the outside.",
+        "success": true,
+        "status_code": 200,
+        "response_time": 2.642,
+        "error": NaN
+    },
+    {
+        "test_id": "WL_0026",
+        "original_text": "Later , Esperanto speakers began to see the language and the culture that had grown up around it as ends in themselves , even if Esperanto is never adopted by the United Nations or other international organizations .",
+        "reference_text": "Later , Esperanto speakers started to see the language and culture that had grown up around it as ends in themselves , though Esperanto is never accepted by the United Nations of other international organizations .",
+        "generated_text": "Later, people who speak Esperanto started to view the language and its culture as ends in themselves. They felt this way even if the United Nations or other international organizations never adopt Esperanto.",
+        "success": true,
+        "status_code": 200,
+        "response_time": 2.896,
+        "error": NaN
+    },
+    {
+        "test_id": "WL_0027",
+        "original_text": "In 1963 an extension was added , curving north from Union station , below University Avenue and Queen 's Park to near Bloor Street , where it turned west to terminate at St. George and Bloor Streets .",
+        "reference_text": "An extension was added in 1963 which curved north from Union Station below University Avenue and Queens park , reaching nearly to Bloor Street and ending on the west side at St. George and Bloor Streets .",
+        "generated_text": "In 1963, a subway extension was added. It curved north from Union Station. It ran below University Avenue and Queen's Park to near Bloor Street. There, it turned west. It ended at St. George and Bloor Streets.",
+        "success": true,
+        "status_code": 200,
+        "response_time": 3.718,
+        "error": NaN
+    },
+    {
+        "test_id": "WL_0028",
+        "original_text": "On October 14 , 1960 , Presidential candidate John F. Kennedy proposed the concept of what became the Peace Corps on the steps of Michigan Union .",
+        "reference_text": "John F. Kennedy , a Presidential candidate , proposed the idea for what became the Peace Corps on the steps of Michigan Union on October 14 , 1960 .",
+        "generated_text": "On October 14, 1960, John F. Kennedy was running for President. He stood on the steps of the Michigan Union. There, he proposed the idea that became the Peace Corps.",
+        "success": true,
+        "status_code": 200,
+        "response_time": 6.023,
+        "error": NaN
+    },
+    {
+        "test_id": "WL_0029",
+        "original_text": "The incident has been the subject of numerous reports as to ethics in scholarship .",
+        "reference_text": "The incident has been the subject of numerous reports regarding scholarship ethics .",
+        "generated_text": "Many reports have discussed this incident. These reports are about ethics in scholarship.",
+        "success": true,
+        "status_code": 200,
+        "response_time": 5.64,
+        "error": NaN
+    },
+    {
+        "test_id": "WL_0030",
+        "original_text": "Prunk is a member of Institute of European History in Mainz , and a senior fellow of the Center for European Integration Studies in Bonn .",
+        "reference_text": "Prunk is a member of the Institute of European History in Mainz . He is also a senior fellow of the Centre for European Integration Studies in Bonn .",
+        "generated_text": "Prunk is a member of the Institute of European History in Mainz. Prunk is also a senior fellow of the Center for European Integration Studies in Bonn.",
+        "success": true,
+        "status_code": 200,
+        "response_time": 6.761,
+        "error": null
+    },
+    {
+        "test_id": "WL_0031",
+        "original_text": "The spacecraft consists of two main elements : the NASA Cassini orbiter , named after the Italian-French astronomer Giovanni Domenico Cassini , and the ESA Huygens probe , named after the Dutch astronomer , mathematician and physicist Christiaan Huygens .",
+        "reference_text": "The spacecraft is having two main parts . One is known as NASA Cassini orbiter . It is named after Giovanni Domenico Cassini , an Italian-French astronomer . The other part is known as ESA Huygens probe . It is named after Christiaan Huygens . He was a Dutch astronomer , mathematician and physicist .",
+        "generated_text": "The spacecraft has two main parts. \nThe first part is the NASA Cassini orbiter. \nIt is named after Giovanni Domenico Cassini. \nHe was an astronomer from Italy and France. \nThe second part is the ESA Huygens probe. \nIt is named after Christiaan Huygens. \nHe was a Dutch astronomer, mathematician, and physicist.",
+        "success": true,
+        "status_code": 200,
+        "response_time": 3.091,
+        "error": null
+    },
+    {
+        "test_id": "WL_0032",
+        "original_text": "Gimnasia hired first famed Colombian trainer Francisco Maturana , and then Julio César Falcioni , but both had limited success .",
+        "reference_text": "Gimnasia hired Francisco Maturana , a Columbian trainer , and then Julio César Falcioni , but they were not very successful .",
+        "generated_text": "Gimnasia hired a famous Colombian trainer first. His name was Francisco Maturana. Then, the team hired Julio César Falcioni. Both trainers had limited success.",
+        "success": true,
+        "status_code": 200,
+        "response_time": 2.803,
+        "error": null
+    },
+    {
+        "test_id": "WL_0033",
+        "original_text": "Dry air wrapping around the southern periphery of the cyclone eroded most of the deep convection by early on September 12 .",
+        "reference_text": "Early September 12 , dry air wrapping around the southern area of the cyclone caused most of the heat to leave .",
+        "generated_text": "Dry air moved around the southern edge of the cyclone. This dry air wore away most of the deep convection by early on September 12.",
+        "success": true,
+        "status_code": 200,
+        "response_time": 2.948,
+        "error": null
+    },
+    {
+        "test_id": "WL_0034",
+        "original_text": "Advocacy Countries with a minority Muslim population are more likely than Muslim-majority countries of the Greater Middle East to use mosques as a way to promote civic participation .",
+        "reference_text": "Assisted Countries with a little Muslim population are more likely than Muslim-majority countries of the Greater Middle East to use mosques as a way to promote public participation .",
+        "generated_text": "Countries where Muslims are a minority use mosques to promote civic participation. They do this more often than Muslim-majority countries in the Greater Middle East.",
+        "success": true,
+        "status_code": 200,
+        "response_time": 5.598,
+        "error": null
+    },
+    {
+        "test_id": "WL_0035",
+        "original_text": "He advocates applying a user-centered design process in product development cycles and also works towards popularizing interaction design as a mainstream discipline .",
+        "reference_text": "He favors product development cycles that features an easy to use design process and works towards bringing interaction design into mainstream popuarity .",
+        "generated_text": "He supports using a user-centered design process in product development cycles. He also works to make interaction design a mainstream discipline.",
+        "success": true,
+        "status_code": 200,
+        "response_time": 4.05,
+        "error": null
+    },
+    {
+        "test_id": "WL_0036",
+        "original_text": "For example , King Bhumibol was born on Monday , so on his birthday throughout Thailand will be decorated with yellow color .",
+        "reference_text": "All over Thailand the color yellow will be used to celebrate King Bhumibal",
+        "generated_text": "For example, King Bhumibol was born on a Monday. Because of this, on his birthday, places all over Thailand are decorated with the color yellow.",
+        "success": true,
+        "status_code": 200,
+        "response_time": 3.421,
+        "error": null
+    },
+    {
+        "test_id": "WL_0037",
+        "original_text": "Pauline returned in the Game Boy remake of Donkey Kong in 1994 , and later Mario vs. Donkey Kong 2 : March of the Minis in 2006 , although the character is now described as '' Mario 's friend '' .",
+        "reference_text": "Pauline turned in the Game Boy remake of Donkey Kong in 1994 , and later Mario vs. Donkey Kong 2 : March of the Minis in 2006 , even though the character is now '' Mario 's friend '' .",
+        "generated_text": "Pauline came back in the Game Boy remake of Donkey Kong in 1994. She also came back in Mario vs. Donkey Kong 2 : March of the Minis in 2006. Now, the character is described as \"Mario 's friend\".",
+        "success": true,
+        "status_code": 200,
+        "response_time": 3.035,
+        "error": null
+    },
+    {
+        "test_id": "WL_0038",
+        "original_text": "These works he produced and published himself , whilst his much larger woodcuts were mostly commissioned work .",
+        "reference_text": "These works he produced and published himself , whilst his much bigger woodcuts were mostly outsourced work .",
+        "generated_text": "He made and published these works by himself. On the other hand, people mostly paid him to make his much larger woodcuts.",
+        "success": true,
+        "status_code": 200,
+        "response_time": 4.318,
+        "error": null
+    },
+    {
+        "test_id": "WL_0039",
+        "original_text": "Their eyes are quite small , and their visual acuity is poor .",
+        "reference_text": "Their eyes are quite small , and their visual acuity is poor .",
+        "generated_text": "Their eyes are quite small. Their visual acuity is poor.",
+        "success": true,
+        "status_code": 200,
+        "response_time": 4.145,
+        "error": null
+    },
+    {
+        "test_id": "WL_0040",
+        "original_text": "The Sheppard line currently has fewer users than the other two subway lines , and shorter trains are run .",
+        "reference_text": "The Sheppard line not only has fewer users than the other two subway lines , it also runs shorter trains .",
+        "generated_text": "The Sheppard line currently has fewer users than the other two subway lines. Because of this, shorter trains are run on it.",
+        "success": true,
+        "status_code": 200,
+        "response_time": 4.068,
+        "error": null
+    },
+    {
+        "test_id": "WL_0041",
+        "original_text": "The first Italian Grand Prix motor racing championship took place on 4 September 1921 at Brescia .",
+        "reference_text": "The first Italian Grand Prix motor racing championship took place on 4 September 1921 at Brescia .",
+        "generated_text": "The first Italian Grand Prix motor racing championship took place on 4 September 1921 at Brescia.",
+        "success": true,
+        "status_code": 200,
+        "response_time": 9.779,
+        "error": null
+    },
+    {
+        "test_id": "WL_0042",
+        "original_text": "In August 2003 , the San Diego Union Tribune alleged that U.S. Marine pilots and their commanders confirmed the use of Mark 77 firebombs on Iraqi Republican Guards during the initial stages of combat .",
+        "reference_text": "It has U.S. Marine pilots . In August 2003 , the San Diego Union Tribune alleged that their commanders confirmed the use of Mark 77 firebombs on Iraqi Republican Guards during the initial stages of combat .",
+        "generated_text": "In August 2003, the San Diego Union Tribune made an allegation. The newspaper stated that U.S. Marine pilots and their commanders confirmed something. They confirmed the use of Mark 77 firebombs. This happened during the initial stages of combat against Iraqi Republican Guards.",
+        "success": true,
+        "status_code": 200,
+        "response_time": 3.602,
+        "error": null
+    },
+    {
+        "test_id": "WL_0043",
+        "original_text": "He left a detachment of 11,000 troops to garrison the newly conquered region .",
+        "reference_text": "He left 11,000 troops to garrison the newly conquered region .",
+        "generated_text": "He left 11,000 troops behind. They were a garrison to hold the newly conquered region.",
+        "success": true,
+        "status_code": 200,
+        "response_time": 4.279,
+        "error": null
+    },
+    {
+        "test_id": "WL_0044",
+        "original_text": "Val Venis defeated Rikishi in a Steel cage match to retain the WWF Intercontinental Championship -LRB- 14:10 -RRB- Venis pinned Rikishi after Tazz hit Rikishi with a TV camera .",
+        "reference_text": "Val Venis defeated Rikishi in a steel cage match to keep is WWF Intercontinental Championship , Venis pinned Rikishi after Tazz hit Rikishi with a t.v camera .",
+        "generated_text": "Val Venis fought Rikishi in a Steel cage match. Val Venis won the match. This means he kept the WWF Intercontinental Championship. The match lasted 14 minutes and 10 seconds (14:10). Tazz hit Rikishi with a TV camera. After that, Val Venis pinned Rikishi.",
+        "success": true,
+        "status_code": 200,
+        "response_time": 5.286,
+        "error": null
+    },
+    {
+        "test_id": "WL_0045",
+        "original_text": "Thereafter the county 's administration was conducted at Duns or Lauder until Greenlaw became the county town in 1596 .",
+        "reference_text": "After that the county 's administration was conducted at Duns or Lauder until Greenlaw became the county town in 1596 .",
+        "generated_text": "After that, the county government was run in Duns or Lauder. Then Greenlaw became the county town in 1596.",
+        "success": true,
+        "status_code": 200,
+        "response_time": 3.457,
+        "error": null
+    },
+    {
+        "test_id": "WL_0046",
+        "original_text": "Aside from this , Cameron has often worked in Christian-themed productions , among them the post-Rapture films Left Behind : The Movie , Left Behind II : Tribulation Force , and Left Behind : World at War , in which he plays Cameron '' Buck '' Williams .",
+        "reference_text": "Aside from this , Cameron usually worked in Christian-themed productions , among them the post-Rapture films Left Behind : The Movie , Left Behind II : Tribulation Force , and Left Behind : World at War , in which he plays Cameron '' Buck '' Williams .",
+        "generated_text": "Also, Cameron has often worked in Christian-themed productions. Among them are the post-Rapture films *Left Behind : The Movie*, *Left Behind II : Tribulation Force*, and *Left Behind : World at War*. In these films, he plays the character Cameron \"Buck\" Williams.",
+        "success": true,
+        "status_code": 200,
+        "response_time": 3.62,
+        "error": null
+    },
+    {
+        "test_id": "WL_0047",
+        "original_text": "There he died six weeks later , on 13 January 888 .",
+        "reference_text": "He died six weeks later on January 13th 888 .",
+        "generated_text": "He died there six weeks later. This happened on 13 January 888.",
+        "success": true,
+        "status_code": 200,
+        "response_time": 8.005,
+        "error": null
+    },
+    {
+        "test_id": "WL_0048",
+        "original_text": "By early on September 30 , wind shear began to dramatically increase and a weakening trend began .",
+        "reference_text": "By early on September 30 , wind shear began to dramatically increase and a weakening trend began .",
+        "generated_text": "Early on September 30, wind shear started to increase a lot. Because of this, a weakening trend began.",
+        "success": true,
+        "status_code": 200,
+        "response_time": 3.972,
+        "error": null
+    },
+    {
+        "test_id": "WL_0049",
+        "original_text": "Winchester is a city in Scott County , Illinois , United States .",
+        "reference_text": "Winchester is a city located in Scott County , Illinois , United States",
+        "generated_text": "Winchester is a city. It is located in Scott County. This is in Illinois. Illinois is in the United States.",
+        "success": true,
+        "status_code": 200,
+        "response_time": 3.765,
+        "error": null
+    },
+    {
+        "test_id": "WL_0050",
+        "original_text": "It is now the site of Meher Baba 's samadhi -LRB- tomb-shrine -RRB- as well as facilities and accommodations for pilgrims .",
+        "reference_text": "It is now the Meher Baba 's tomb-shrine and a place for pilgrims .",
+        "generated_text": "This place now holds Meher Baba's samadhi, which is a tomb-shrine. It also has buildings and rooms for pilgrims to stay in.",
+        "success": true,
+        "status_code": 200,
+        "response_time": 3.416,
+        "error": null
+    },
+    {
+        "test_id": "WL_0051",
+        "original_text": "Computer performance is characterized by the amount of useful work accomplished by a computer system compared to the time and resources used .",
+        "reference_text": "Computer performance is characterized by the amount of useful work accomplished by a computer system compared to the time and resources used .",
+        "generated_text": "Computer performance measures how much useful work a computer system does. It compares this work to the time and resources used.",
+        "success": true,
+        "status_code": 200,
+        "response_time": 3.562,
+        "error": null
+    },
+    {
+        "test_id": "WL_0052",
+        "original_text": "Orchestration Stravinsky first conceived of writing the ballet in 1913 .",
+        "reference_text": "Stravinsky first conceived of writing the ballet in 1913 .",
+        "generated_text": "Stravinsky first thought of writing the ballet in 1913.",
+        "success": true,
+        "status_code": 200,
+        "response_time": 3.774,
+        "error": null
+    },
+    {
+        "test_id": "WL_0053",
+        "original_text": "Historically , the sensations of itch and pain have not been considered to be independent of each other until recently , where it was found that itch has several features in common with pain , but exhibits notable differences .",
+        "reference_text": "Historically , the sensations of itch and pain have not been considered to be independent of each other until recently , where it was found that itch has several features in common with pain , but exhibits notable differences .",
+        "generated_text": "In the past, experts did not think itch and pain were separate sensations. Recently, research has shown that itch shares several features with pain. However, itch also shows notable differences from pain.",
+        "success": true,
+        "status_code": 200,
+        "response_time": 4.503,
+        "error": null
+    },
+    {
+        "test_id": "WL_0054",
+        "original_text": "He toured with the IPO in the spring of 1990 for their first-ever performance in the Soviet Union , with concerts in Moscow and Leningrad , and toured with the IPO again in 1994 , performing in China and India .",
+        "reference_text": "for their first-ever performance in the Soviet Union he toured with the IPO spring from 1990 to 1994 with china and india",
+        "generated_text": "He toured with the IPO in the spring of 1990. This was their first-ever performance in the Soviet Union. They gave concerts in Moscow and Leningrad. He toured with the IPO again in 1994. They performed in China and India.",
+        "success": true,
+        "status_code": 200,
+        "response_time": 4.377,
+        "error": null
+    },
+    {
+        "test_id": "WL_0055",
+        "original_text": "On June 1 , 1972 , he and fellow RAF members Jan-Carl Raspe and Holger Meins were apprehended after a lengthy shootout in Frankfurt .",
+        "reference_text": "He and fellow RAF members Jan-Carl Raspe and Holger Meins were taken hold after a lengthy shootout . It was in Frankfurt on June 1 , 1972 .",
+        "generated_text": "On June 1, 1972, he and other RAF members, Jan-Carl Raspe and Holger Meins, were caught. This happened after a long shootout in Frankfurt.",
+        "success": true,
+        "status_code": 200,
+        "response_time": 6.064,
+        "error": null
+    },
+    {
+        "test_id": "WL_0056",
+        "original_text": "His next work , Saturday , follows an especially eventful day in the life of a successful neurosurgeon .",
+        "reference_text": "His next work at Saturday will be a successful neurosurgeon .",
+        "generated_text": "His next book is called *Saturday*. \nIt describes one very busy day in the life of a successful neurosurgeon.",
+        "success": true,
+        "status_code": 200,
+        "response_time": 9.958,
+        "error": null
+    },
+    {
+        "test_id": "WL_0057",
+        "original_text": "In 1998 , Culver ran for Iowa Secretary of State and was victorious .",
+        "reference_text": "In 1998 , Culver successfully ran for Iowa Secretary of State .",
+        "generated_text": "In 1998, Culver ran for Iowa Secretary of State. He won the election.",
+        "success": true,
+        "status_code": 200,
+        "response_time": 2.53,
+        "error": null
+    },
+    {
+        "test_id": "WL_0058",
+        "original_text": "Benchmarking conducted by PassMark Software highlights the 2009 version 's 52 second install time , 32 second scan time , and 7 MB memory utilization .",
+        "reference_text": "PassMark Software tested standards of 2009 version and the highlights are 52 second install time , 32 second scan time and 7MB memory utilization .",
+        "generated_text": "PassMark Software did some testing. This is called benchmarking. The tests show the 2009 version's results. It took 52 seconds to install. It took 32 seconds to scan. It used 7 MB of memory.",
+        "success": true,
+        "status_code": 200,
+        "response_time": 2.616,
+        "error": null
+    },
+    {
+        "test_id": "WL_0059",
+        "original_text": "Together they formed New Music Manchester , a group committed to contemporary music .",
+        "reference_text": "They formed the New Music Manchester band and sang contemporary",
+        "generated_text": "They joined together to create New Music Manchester. This was a group. The group was dedicated to contemporary music.",
+        "success": true,
+        "status_code": 200,
+        "response_time": 2.594,
+        "error": null
+    },
+    {
+        "test_id": "WL_0060",
+        "original_text": "On 16 June 2009 , the official release date of The Resistance was announced on the band 's website .",
+        "reference_text": "On June 16 2009 the official release date of The Resistance was announced on the band 's website .",
+        "generated_text": "On 16 June 2009, the band posted the official release date of The Resistance on their website.",
+        "success": true,
+        "status_code": 200,
+        "response_time": 7.077,
+        "error": null
+    },
+    {
+        "test_id": "WL_0061",
+        "original_text": "Each entry has a datum -LRB- a nugget of data -RRB- which is a copy of the datum in some backing store .",
+        "reference_text": "Each entry has a datum -LRB- a nugget of data -RRB- which is a copy of the datum in some backing store .",
+        "generated_text": "Each entry has a datum. A datum is a small piece of data. It is a copy of the datum in a backing store.",
+        "success": true,
+        "status_code": 200,
+        "response_time": 5.508,
+        "error": null
+    },
+    {
+        "test_id": "WL_0062",
+        "original_text": "Offenbach 's numerous operettas , such as Orpheus in the Underworld , and La belle Hélène , were extremely popular in both France and the English-speaking world during the 1850s and 1860s .",
+        "reference_text": "Offenbach 'S a great number of operettas , such as Orpheus in the Underworld , and La beautiful woman Helene , were greatly pleasing to all in both France and the english-talking earth during the 1850s and 1860s",
+        "generated_text": "Offenbach wrote many operettas. Two examples are Orpheus in the Underworld and La belle Hélène. These operettas were very popular. They were popular in France. They were also popular in the English-speaking world. This popularity happened during the 1850s and 1860s.",
+        "success": true,
+        "status_code": 200,
+        "response_time": 3.199,
+        "error": null
+    },
+    {
+        "test_id": "WL_0063",
+        "original_text": "Volterra is a town in the Tuscany region of Italy .",
+        "reference_text": "Volterra is a town in the Tuscany area of Italy .",
+        "generated_text": "Volterra is a town. It is located in the Tuscany region of Italy.",
+        "success": true,
+        "status_code": 200,
+        "response_time": 3.044,
+        "error": null
+    },
+    {
+        "test_id": "WL_0064",
+        "original_text": "This leads to consumer confusion when 220 -LRB- 1,048,576 -RRB- bytes is referenced as 1 MB -LRB- megabyte -RRB- instead of 1 MiB .",
+        "reference_text": "The consumer gets confused when 220 bytes is called 1 MB , instead of 1MiB .",
+        "generated_text": "This leads to consumer confusion. \n\nThis happens when 2^20 (1,048,576) bytes are called 1 MB (megabyte) instead of 1 MiB.",
+        "success": true,
+        "status_code": 200,
+        "response_time": 3.313,
+        "error": null
+    },
+    {
+        "test_id": "WL_0065",
+        "original_text": "Vouvray-sur-Huisne is a commune in the Sarthe department in the region of Pays-de-la-Loire in northwestern France .",
+        "reference_text": "Vouvray-sur-Huisne is a community in the Sarthe department in the area of Pays-de-la-Loire in northwestern France .",
+        "generated_text": "Vouvray-sur-Huisne is a commune. It is located in the Sarthe department. This department is in the Pays-de-la-Loire region. This region is in northwestern France.",
+        "success": true,
+        "status_code": 200,
+        "response_time": 2.777,
+        "error": null
+    },
+    {
+        "test_id": "WL_0066",
+        "original_text": "Brighton is a city in Washington County , Iowa , United States .",
+        "reference_text": "Brighton is a city in Washington County Iowa .",
+        "generated_text": "Brighton is a city. It is located in Washington County. This county is in Iowa. Iowa is in the United States.",
+        "success": true,
+        "status_code": 200,
+        "response_time": 2.983,
+        "error": null
+    },
+    {
+        "test_id": "WL_0067",
+        "original_text": "Seventy-five defencemen are in the Hall of Fame , more than any other current position , while only 35 goaltenders have been inducted .",
+        "reference_text": "Out of seventy-five defencemen in the hall of fame , only 35 goaltenders have been inducted .",
+        "generated_text": "Seventy-five defencemen are in the Hall of Fame. This is more than any other current position. Only 35 goaltenders have been inducted.",
+        "success": true,
+        "status_code": 200,
+        "response_time": 4.601,
+        "error": null
+    },
+    {
+        "test_id": "WL_0068",
+        "original_text": "Napoleonic Wars : Austrian General Mack surrenders his army to the Grand Army of Napoleon at Ulm , reaping Napoleon over 30,000 prisoners and inflicting 10,000 casualties on the losers .",
+        "reference_text": "Austrian General Mack surrenders his army to Grand Army of Napoleon at Ulm .",
+        "generated_text": "During the Napoleonic Wars, Austrian General Mack surrendered his army to Napoleon's Grand Army at Ulm. This defeat gave Napoleon more than 30,000 prisoners. It also caused 10,000 casualties for the losing side.",
+        "success": true,
+        "status_code": 200,
+        "response_time": 2.574,
+        "error": null
+    },
+    {
+        "test_id": "WL_0069",
+        "original_text": "Tickets can be retailed for National Rail services , the Docklands Light Railway and on Oyster card .",
+        "reference_text": "Tickets can be retailed for National Rail services and the Docklands Light Railway on Oyster card .",
+        "generated_text": "You can buy tickets for National Rail services. \nYou can buy them for the Docklands Light Railway. \nYou can also buy them on an Oyster card.",
+        "success": true,
+        "status_code": 200,
+        "response_time": 2.834,
+        "error": null
+    },
+    {
+        "test_id": "WL_0070",
+        "original_text": "Yoghurt or yogurt is a dairy product produced by bacterial fermentation of milk .",
+        "reference_text": "Yoghurt or yogurt is a milk-based food made by bacterial fermentation of milk .",
+        "generated_text": "Yoghurt or yogurt is a dairy product. It is made by the bacterial fermentation of milk.",
+        "success": true,
+        "status_code": 200,
+        "response_time": 2.79,
+        "error": null
+    },
+    {
+        "test_id": "WL_0071",
+        "original_text": "The Kindle 2 features 16-level grayscale display , improved battery life , 20 percent faster page-refreshing , a text-to-speech option to read the text aloud , and overall thickness reduced from 0.8 to 0.36 inches -LRB- 9.1 millimeters -RRB- .",
+        "reference_text": "The Kindle 2 features grayscale display , improved battery life , and overall thickness reduced .",
+        "generated_text": "The Kindle 2 has several new features. It has a 16-level grayscale display. It has better battery life. It turns pages 20 percent faster. It includes a text-to-speech option to read the text aloud. The overall thickness is reduced from 0.8 to 0.36 inches (9.1 millimeters).",
+        "success": true,
+        "status_code": 200,
+        "response_time": 6.234,
+        "error": null
+    },
+    {
+        "test_id": "WL_0072",
+        "original_text": "Salem is a city in Essex County , Massachusetts , United States .",
+        "reference_text": "Salem is a city in Essex County Massachusetts .",
+        "generated_text": "Salem is a city. It is located in Essex County, Massachusetts, United States.",
+        "success": true,
+        "status_code": 200,
+        "response_time": 2.581,
+        "error": null
+    },
+    {
+        "test_id": "WL_0073",
+        "original_text": "A majority of South Indians speak one of the five Dravidian languages -- Kannada , Malayalam , Tamil , Telugu and Tulu .",
+        "reference_text": "Most South Indians speak one of the five Dravidian languages -- Kannada , Malayalam , Tamil , Telugu and Tulu .",
+        "generated_text": "Most people in South India speak one of five Dravidian languages. \nThese languages are Kannada, Malayalam, Tamil, Telugu, and Tulu.",
+        "success": true,
+        "status_code": 200,
+        "response_time": 2.632,
+        "error": null
+    },
+    {
+        "test_id": "WL_0074",
+        "original_text": "The wounds inflicted by a club are generally known as bludgeoning or blunt-force trauma injuries .",
+        "reference_text": "The wounds inflicted by a club are generally known as bludgeoning or blunt-force trauma injuries .",
+        "generated_text": "A club causes wounds. These wounds are generally known as bludgeoning injuries or blunt-force trauma injuries.",
+        "success": true,
+        "status_code": 200,
+        "response_time": 2.416,
+        "error": null
+    },
+    {
+        "test_id": "WL_0075",
+        "original_text": "Seventh sons have strong '' knacks '' -LRB- specific magical abilities -RRB- , and seventh sons of seventh sons are both extraordinarily rare and powerful .",
+        "reference_text": "Seventh sons have strong '' knacks '' -LRB- specific magical abilities -RRB- , and he is extraordinarily rare and powerful .",
+        "generated_text": "A seventh son has a strong \"knack,\" which means a specific magical ability. A seventh son of a seventh son is very rare. He also has a great amount of power.",
+        "success": true,
+        "status_code": 200,
+        "response_time": 3.409,
+        "error": null
+    },
+    {
+        "test_id": "WL_0076",
+        "original_text": "Military career Donaldson enlisted in the Australian Army on 18 June 2002 .",
+        "reference_text": "Donaldson inlisted in Australia 's army on June 18 , 2002 to start his military career .",
+        "generated_text": "Military career. \nDonaldson joined the Australian Army. \nThis happened on 18 June 2002.",
+        "success": true,
+        "status_code": 200,
+        "response_time": 2.36,
+        "error": null
+    },
+    {
+        "test_id": "WL_0077",
+        "original_text": "Waugh writes that Charles had been '' in search of love in those days '' when he first met Sebastian , finding '' that low door in the wall ... which opened on an enclosed and enchanted garden '' , a metaphor that informs the work on a number of levels .",
+        "reference_text": "Waugh writes that Charles had been '' in search of love in those days '' when he first met Sebastian , finding '' that low door in the wall ... which opened on an enclosed and enchanted garden '' , a metaphor that informs the work on a number of levels .",
+        "generated_text": "Waugh writes about Charles. He says Charles was looking for love at that time. This was when Charles first met Sebastian. Charles found a low door in a wall. The door opened into an enclosed and enchanted garden. This is a metaphor. It shapes the work on several levels.",
+        "success": true,
+        "status_code": 200,
+        "response_time": 2.809,
+        "error": null
+    },
+    {
+        "test_id": "WL_0078",
+        "original_text": "In its pure form , dextromethorphan occurs as a white powder .",
+        "reference_text": "In its pure form , dextromethorphan lives as a white powder .",
+        "generated_text": "Dextromethorphan is a white powder in its pure form.",
+        "success": true,
+        "status_code": 200,
+        "response_time": 20.526,
+        "error": null
+    },
+    {
+        "test_id": "WL_0079",
+        "original_text": "In return , Rollo swore fealty to Charles , converted to Christianity , and undertook to defend the northern region of France against the incursions of other Viking groups .",
+        "reference_text": "Rollo swore fealty to Charles , changed to Christianity , and undertook to standby the northern region of France against the incursions of other Viking groups .",
+        "generated_text": "In return, Rollo did the following things. He swore fealty to Charles. He converted to Christianity. He also undertook to defend the northern region of France against the incursions of other Viking groups.",
+        "success": true,
+        "status_code": 200,
+        "response_time": 10.46,
+        "error": null
+    },
+    {
+        "test_id": "WL_0080",
+        "original_text": "Unlike the clouds on Earth , however , which are composed of crystals of ice , Neptune 's cirrus clouds are made up of crystals of frozen methane .",
+        "reference_text": "Unlike the clouds on Earth , however , which are composed of crystals of ice , Neptune 's cirrus clouds are made up of crystals of frozen methane .",
+        "generated_text": "Clouds on Earth are made of ice crystals. Neptune's cirrus clouds are different. They are made of frozen methane crystals.",
+        "success": true,
+        "status_code": 200,
+        "response_time": 5.937,
+        "error": null
+    },
+    {
+        "test_id": "WL_0081",
+        "original_text": "Since 2000 , the recipient of the Kate Greenaway Medal has also been presented with the Colin Mears Award to the value of # 5000 .",
+        "reference_text": "Since 2000 , the recipient of the Kate Greenway Medal has also been presented with the Colin Mears Award to the value of 5000 pounds .",
+        "generated_text": "Since the year 2000, the person who receives the Kate Greenaway Medal also gets the Colin Mears Award. This award is worth 5000 pounds.",
+        "success": true,
+        "status_code": 200,
+        "response_time": 2.821,
+        "error": null
+    },
+    {
+        "test_id": "WL_0082",
+        "original_text": "The lawyer , Brandon -LRB- Waise Lee -RRB- , became his idol , and MK Sun grew up to be a lawyer .",
+        "reference_text": "The lawyer Brandon -LRB- Waise Lee -RRB- was his idol as MK Sun grew up to be a lawyer .",
+        "generated_text": "The lawyer, Brandon (Waise Lee), became his idol. MK Sun grew up to be a lawyer.",
+        "success": true,
+        "status_code": 200,
+        "response_time": 2.988,
+        "error": null
+    },
+    {
+        "test_id": "WL_0083",
+        "original_text": "Most IRC servers do not require users to register an account but a user will have to set a nickname before being connected .",
+        "reference_text": "Most IRC servers only require a user to set a nickname .",
+        "generated_text": "Most IRC servers do not require users to register an account. However, a user must set a nickname before they can connect.",
+        "success": true,
+        "status_code": 200,
+        "response_time": 3.185,
+        "error": null
+    },
+    {
+        "test_id": "WL_0084",
+        "original_text": "Her notorious friendship with the Russian mystic Grigori Rasputin was also an important factor in her life .",
+        "reference_text": "Her well known relation with the Russian mystic Grigori Rasputin was additionaly an important number in her life .",
+        "generated_text": "Her famous friendship with the Russian mystic Grigori Rasputin was also an important factor in her life.",
+        "success": true,
+        "status_code": 200,
+        "response_time": 3.473,
+        "error": null
+    },
+    {
+        "test_id": "WL_0085",
+        "original_text": "Civil unrest in northern Italy spawns the medieval musical form of Geisslerlieder , penitential songs sung by wandering bands of Flagellants .",
+        "reference_text": "Civil unrest in northern Italy spawns the medieval musical form of songs sung by wandering bands of Flagellants .",
+        "generated_text": "Civil unrest happens in northern Italy. This unrest leads to a medieval musical form. This form is called Geisslerlieder. These are penitential songs. Wandering bands of Flagellants sing them.",
+        "success": true,
+        "status_code": 200,
+        "response_time": 3.398,
+        "error": null
+    },
+    {
+        "test_id": "WL_0086",
+        "original_text": "Shi ' a Muslims consider Karbala to be one of their holiest cities after Mecca , Medina , Jerusalem and Najaf .",
+        "reference_text": "Shi'a Muslims consider Karbala to be one of their holiest cities after Mecca , Medina , Jerusalem and Najaf .",
+        "generated_text": "Shi ' a Muslims view Karbala as one of their holiest cities. \nIt is holy after Mecca, Medina, Jerusalem, and Najaf.",
+        "success": true,
+        "status_code": 200,
+        "response_time": 3.465,
+        "error": null
+    },
+    {
+        "test_id": "WL_0087",
+        "original_text": "This closely resembles the Unix philosophy of having multiple programs each doing one thing well and working together over universal interfaces .",
+        "reference_text": "This looks like the Unix idea of having several programs with each doing one thing and working together .",
+        "generated_text": "This is very similar to the Unix philosophy. \nThis philosophy means having multiple programs. \nEach program does one thing well. \nThe programs work together. \nThey use universal interfaces.",
+        "success": true,
+        "status_code": 200,
+        "response_time": 5.798,
+        "error": null
+    },
+    {
+        "test_id": "WL_0088",
+        "original_text": "In 1438 Trevi passed under the temporal rule of the Church as part of the legation of Perugia , and thenceforth its history merges first with that of the States of the Church , then -LRB- 1860 -RRB- with the united Kingdom of Italy .",
+        "reference_text": "In 1438 Trevi passed under the time-limited rule of the Church as part of the place for political statements of Perugia , and thenceforth its history goes into together first with that of the States of the Church , then -LRB- 1860 -RRB- with the United Kingdom of Italy",
+        "generated_text": "In 1438, Trevi came under the political rule of the Church. It became part of the legation of Perugia. After that, its history joined the history of the States of the Church. Later, in 1860, it joined the united Kingdom of Italy.",
+        "success": true,
+        "status_code": 200,
+        "response_time": 7.108,
+        "error": null
+    },
+    {
+        "test_id": "WL_0089",
+        "original_text": "Version 2009.1 provides a USB installer to create a Live USB , where the user 's configuration and personal data can be saved if desired .",
+        "reference_text": "Version 2009.1 provides a USB installer to create a Live USB , where the user 's arrangements or Design and personal Data can be saved if desired .",
+        "generated_text": "Version 2009.1 includes a USB installer. This tool lets you make a Live USB. You can use it to save your personal data and configuration, if you want.",
+        "success": true,
+        "status_code": 200,
+        "response_time": 3.577,
+        "error": null
+    },
+    {
+        "test_id": "WL_0090",
+        "original_text": "So far the ' celebrity ' episodes have included Vic Reeves , Nancy Sorrell , Gaby Roslin , Scott Mills , Mark Chapman , Simon Gregson , Sue Cleaver , Carol Thatcher , Paul O ` Grady and Lee Ryan .",
+        "reference_text": "Until now the ' celebrity ' chapters have shown Vic Reeves , Nancy Sorrell , Gaby Roslin , Scott Mills , Mark Chapman , Simon Gregson , Sue Cleaver , Carol Thatcher , Paul O ` Grady and Lee Ryan .",
+        "generated_text": "So far, the celebrity episodes have included Vic Reeves, Nancy Sorrell, Gaby Roslin, Scott Mills, Mark Chapman, Simon Gregson, Sue Cleaver, Carol Thatcher, Paul O'Grady, and Lee Ryan.",
+        "success": true,
+        "status_code": 200,
+        "response_time": 3.513,
+        "error": null
+    },
+    {
+        "test_id": "WL_0091",
+        "original_text": "The characters are foul-mouthed extensions of their earlier characters Pete and Dud .",
+        "reference_text": "The characters speak bad language of their earlier characters pete and dud",
+        "generated_text": "These characters use bad language. They are extensions of the characters Pete and Dud from earlier work.",
+        "success": true,
+        "status_code": 200,
+        "response_time": 9.091,
+        "error": null
+    },
+    {
+        "test_id": "WL_0092",
+        "original_text": "A town may be correctly described as a market town or as having market rights even if it no longer holds a market , provided the right to do so still exists .",
+        "reference_text": "A town may be correctly identified by a market or as having market rights even if it no longer holds a market , provided the right to do so still exists .",
+        "generated_text": "A town can still be called a market town. It can also be called a town with market rights. This is true even if it does not hold a market anymore. It is true as long as the legal right to hold a market still exists.",
+        "success": true,
+        "status_code": 200,
+        "response_time": 2.979,
+        "error": null
+    },
+    {
+        "test_id": "WL_0093",
+        "original_text": "The depression moved inland on the 20th as a circulation devoid of convection , and dissipated the next day over Brazil , where it caused heavy rains and flooding .",
+        "reference_text": "On 20th depression moved inland as convection less circulation and after weakening over Brazil it caused heavy rains and flooding .",
+        "generated_text": "On the 20th, the depression moved over land. At that time, the circulation had no convection. The next day, it dissipated over Brazil. There, it caused heavy rains and flooding.",
+        "success": true,
+        "status_code": 200,
+        "response_time": 8.777,
+        "error": null
+    },
+    {
+        "test_id": "WL_0094",
+        "original_text": "He was appointed Companion of Honour -LRB- CH -RRB- in 1988 .",
+        "reference_text": "He was appointed Companion of Honour in 1988 .",
+        "generated_text": "He was made a Companion of Honour, which is abbreviated as CH, in 1988.",
+        "success": true,
+        "status_code": 200,
+        "response_time": 9.859,
+        "error": null
+    },
+    {
+        "test_id": "WL_0095",
+        "original_text": "Small value inductors can also be built on integrated circuits using the same processes that are used to make transistors .",
+        "reference_text": "Both small value inductors and transistors can be built on integrated circuits .",
+        "generated_text": "Small value inductors can also be built on integrated circuits. This uses the same processes that are used to make transistors.",
+        "success": true,
+        "status_code": 200,
+        "response_time": 3.164,
+        "error": null
+    },
+    {
+        "test_id": "WL_0096",
+        "original_text": "Admission to Tsinghua is extremely competitive .",
+        "reference_text": "entrance to Tsinghua is very very difficult .",
+        "generated_text": "It is very hard to get into Tsinghua.",
+        "success": true,
+        "status_code": 200,
+        "response_time": 5.321,
+        "error": null
+    },
+    {
+        "test_id": "WL_0097",
+        "original_text": "James I appointed him a Gentleman of the Chapel Royal , where he served as an organist from at least 1615 until his death .",
+        "reference_text": "James I made him a Gentleman of the Chapel Royal , where he served as an organist from at least 1615 until his death .",
+        "generated_text": "James I appointed him as a Gentleman of the Chapel Royal. He worked there as an organist. He started this job in 1615 at the latest, and he kept it until he died.",
+        "success": true,
+        "status_code": 200,
+        "response_time": 6.622,
+        "error": null
+    },
+    {
+        "test_id": "WL_0098",
+        "original_text": "Nevertheless , Tagore emulated numerous styles , including craftwork from northern New Ireland , Haida carvings from the west coast of Canada -LRB- British Columbia -RRB- , and woodcuts by Max Pechstein .",
+        "reference_text": "tagore emulated various styles including craftwork from northern new Ireland , carvings from the west coast of canada and woodcuts by max pechstein neverthelessly",
+        "generated_text": "Tagore copied many different art styles. \nThis included craftwork from northern New Ireland. \nIt included Haida carvings from the west coast of Canada, which is British Columbia. \nIt also included woodcuts by Max Pechstein.",
+        "success": true,
+        "status_code": 200,
+        "response_time": 8.575,
+        "error": null
+    },
+    {
+        "test_id": "WL_0099",
+        "original_text": "Furthermore , research has shown children are less likely to report a crime if it involves someone that he or she knows , trusts , and / or cares about .",
+        "reference_text": "Furthermore , research has shown children are less likely to report a crime if it involves someone that he or she knows , trusts , and / or cares about .",
+        "generated_text": "Research shows that children are less likely to report a crime. This is true if the crime involves someone they know, trust, or care about.",
+        "success": true,
+        "status_code": 200,
+        "response_time": 3.299,
+        "error": null
+    },
+    {
+        "test_id": "WL_0100",
+        "original_text": "Some reports read that various factors increase the likelihood of both paralysis and hallucinations .",
+        "reference_text": "Some reports said that various things make it more possible to have paralysis and hallucinations .",
+        "generated_text": "Some reports state that various factors make both paralysis and hallucinations more likely to happen.",
+        "success": true,
+        "status_code": 200,
+        "response_time": 7.396,
+        "error": null
+    },
+    {
+        "test_id": "WL_0101",
+        "original_text": "Eugowra is said to be named after the Indigenous Australian word meaning '' The place where the sand washes down the hill '' .",
+        "reference_text": "Eugowra is said to be named after the Indigenous Australian word meaning '' The place where the sand washes down the hill '' .",
+        "generated_text": "People say Eugowra gets its name from an Indigenous Australian word. \nThis word means \"The place where the sand washes down the hill.\"",
+        "success": true,
+        "status_code": 200,
+        "response_time": 26.983,
+        "error": null
+    },
+    {
+        "test_id": "WL_0102",
+        "original_text": "In 1990 , she was the only female entertainer allowed to perform in Saudi Arabia .",
+        "reference_text": "as a female entertainer she alone was allowed to perform in saudi arabia during 1990",
+        "generated_text": "In 1990, she was the only female entertainer allowed to perform in Saudi Arabia.",
+        "success": true,
+        "status_code": 200,
+        "response_time": 3.608,
+        "error": null
+    },
+    {
+        "test_id": "WL_0103",
+        "original_text": "He died on May 29 , 1518 in Madrid , Spain and was buried in the church of San Benito d ` Alcantara .",
+        "reference_text": "He died on May 29 , 1518 in Madrid , Spain . It was buried in the church of San Benito d ` Alcantara .",
+        "generated_text": "He died on May 29, 1518. \nHe died in Madrid, Spain. \nHe was buried in the church of San Benito d ` Alcantara.",
+        "success": true,
+        "status_code": 200,
+        "response_time": 4.946,
+        "error": null
+    },
+    {
+        "test_id": "WL_0104",
+        "original_text": "Usually portrayed as being bald , with long whiskers , he is said to be an incarnation of the Southern Polestar .",
+        "reference_text": "Usually portrayed as being bald , with long whiskers , he is said to be an incarnation of the Southern Polestar .",
+        "generated_text": "He is usually shown as bald. He has long whiskers. He is said to be an incarnation of the Southern Polestar.",
+        "success": true,
+        "status_code": 200,
+        "response_time": 3.85,
+        "error": null
+    },
+    {
+        "test_id": "WL_0105",
+        "original_text": "He was also famous for his prints , book covers , posters , and garden metalwork furniture .",
+        "reference_text": "he is famous for prints , book covers , posters , and garden metalwork furniture .",
+        "generated_text": "He was also famous for his prints. He was famous for his book covers. He was famous for his posters. He was also famous for his garden metalwork furniture.",
+        "success": true,
+        "status_code": 200,
+        "response_time": 4.36,
+        "error": null
+    },
+    {
+        "test_id": "WL_0106",
+        "original_text": "Although the name suggests that they are located in the Bernese Oberland region of the canton of Bern , portions of the Bernese Alps are in the adjacent cantons of Valais , Lucerne , Obwalden , Fribourg and Vaud .",
+        "reference_text": "Eventhough the name evokes that they are placed in the Bernese Oberland area of the district of Bern , parts of the Bernese Alps are in the adjoining parts of the Bernese Alps are lying near the cantons of Valais , Lucerne , Obwalden , Fribourg and Vaud .",
+        "generated_text": "The name suggests they are in the Bernese Oberland region of the canton of Bern. However, parts of the Bernese Alps are actually in other cantons. These adjacent cantons are Valais, Lucerne, Obwalden, Fribourg, and Vaud.",
+        "success": true,
+        "status_code": 200,
+        "response_time": 9.478,
+        "error": null
+    },
+    {
+        "test_id": "WL_0107",
+        "original_text": "The polymer is most often epoxy , but other polymers , such as polyester , vinyl ester or nylon , are also sometimes used .",
+        "reference_text": "Polymers , such as polyester , vinylester or nylon , are also sometimes used as epoxies .",
+        "generated_text": "The polymer is usually epoxy. Sometimes, other polymers are used. These other polymers include polyester, vinyl ester, or nylon.",
+        "success": true,
+        "status_code": 200,
+        "response_time": 3.261,
+        "error": null
+    },
+    {
+        "test_id": "WL_0108",
+        "original_text": "However travel through very remote areas , on isolated tracks , requires advance planning and a suitable , reliable vehicle -LRB- usually a four wheel drive -RRB- .",
+        "reference_text": "However , travel through very remote areas , on isolated tracks , requires advance planning and a suitable , reliable vehicle -LRB- usually a four wheel drive -RRB- .",
+        "generated_text": "However, traveling through very remote areas on isolated tracks requires advance planning. It also requires a suitable, reliable vehicle, which is usually a four-wheel drive.",
+        "success": true,
+        "status_code": 200,
+        "response_time": 3.248,
+        "error": null
+    },
+    {
+        "test_id": "WL_0109",
+        "original_text": "Addiscombe is a suburb in the London Borough of Croydon , England .",
+        "reference_text": "Addiscombe is a suburb in the London Borough of Croydon , England .",
+        "generated_text": "Addiscombe is a suburb. It is located in the London Borough of Croydon. This borough is in England.",
+        "success": true,
+        "status_code": 200,
+        "response_time": 3.329,
+        "error": null
+    },
+    {
+        "test_id": "WL_0110",
+        "original_text": "He is interred in the Restvale Cemetery in Alsip , Illinois .",
+        "reference_text": "He is interred in Restvale Cemetery in Alsip Illinois .",
+        "generated_text": "His body is buried in the Restvale Cemetery in Alsip, Illinois.",
+        "success": true,
+        "status_code": 200,
+        "response_time": 8.321,
+        "error": null
+    },
+    {
+        "test_id": "WL_0111",
+        "original_text": "ISBN 1-876429-14-3 is an historic township located near Cowra in the central west of New South Wales , Australia in Cabonne Shire .",
+        "reference_text": "ISBN 1-876429-14-3 is an historic suburb located near Cowra in the central west of New South Wales , Australia in Cabonne Shire .",
+        "generated_text": "ISBN 1-876429-14-3 is an historic township. \nIt is located near Cowra. \nCowra is in the central west of New South Wales, Australia. \nIt is located in Cabonne Shire.",
+        "success": true,
+        "status_code": 200,
+        "response_time": 6.671,
+        "error": null
+    },
+    {
+        "test_id": "WL_0112",
+        "original_text": "It is situated at the coast of the Baltic Sea , where it encloses the city of Stralsund .",
+        "reference_text": "It is situated at the coast of the Baltic Sea , where it encloses the city of Stralsund .",
+        "generated_text": "It is located on the coast of the Baltic Sea. There, it surrounds the city of Stralsund.",
+        "success": true,
+        "status_code": 200,
+        "response_time": 3.574,
+        "error": null
+    },
+    {
+        "test_id": "WL_0113",
+        "original_text": "The Prime Minister stays in office only as long as he or she retains the support of the lower house .",
+        "reference_text": "The Prime Minister stays in office only as long as he or she keeps the support of the lower house .",
+        "generated_text": "The Prime Minister stays in office. This is true only as long as the Prime Minister keeps the support of the lower house.",
+        "success": true,
+        "status_code": 200,
+        "response_time": 5.909,
+        "error": null
+    },
+    {
+        "test_id": "WL_0114",
+        "original_text": "The tongue is sticky because of the presence of glycoprotein-rich mucous , which both lubricates movement in and out of the snout and helps to catch ants and termites , which adhere to it .",
+        "reference_text": "The tongue is sticky because of the presence of glycoprotein-rich mucous , which both oils movement in and out of the beak and helps to catch ants and termites , which sticks to it .",
+        "generated_text": "The tongue is sticky. This is because of glycoprotein-rich mucous. This mucous does two things. First, it lubricates the movement of the tongue in and out of the snout. Second, it helps to catch ants and termites. These insects adhere to the tongue.",
+        "success": true,
+        "status_code": 200,
+        "response_time": 9.667,
+        "error": null
+    },
+    {
+        "test_id": "WL_0115",
+        "original_text": "Origin Irmo was chartered on Christmas Eve in 1890 in response to the opening of the Columbia , Newberry and Laurens Railroad .",
+        "reference_text": "Origin Irmo was rented on Christmas Eve in 1890 in response to the opening of the Columbia , Newberry and Laurens Railway line .",
+        "generated_text": "Irmo started on Christmas Eve in the year 1890. It was created because the Columbia, Newberry and Laurens Railroad opened.",
+        "success": true,
+        "status_code": 200,
+        "response_time": 3.295,
+        "error": null
+    },
+    {
+        "test_id": "WL_0116",
+        "original_text": "Today NRC is organised as an independent , private foundation .",
+        "reference_text": "Today NRC is organised as an independent foundation .",
+        "generated_text": "Today, NRC is organized as an independent, private foundation.",
+        "success": true,
+        "status_code": 200,
+        "response_time": 3.399,
+        "error": null
+    },
+    {
+        "test_id": "WL_0117",
+        "original_text": "In April 2000 , MINIX became free / open source software under a permissive free software licence , but by this time other operating systems had surpassed its capabilities , and it remained primarily an operating system for students and hobbyists .",
+        "reference_text": "In April 2000 , MINIX became free or open source software under a non-restrictive free software licence , but by this time other operating systems had exceeded its capabilities , and it continued to be mainly an operating system for students and hobbyists .",
+        "generated_text": "In April 2000, MINIX became free and open source software. It used a permissive free software licence. By this time, other operating systems had surpassed its capabilities. Because of this, it remained primarily an operating system for students and hobbyists.",
+        "success": true,
+        "status_code": 200,
+        "response_time": 6.166,
+        "error": null
+    },
+    {
+        "test_id": "WL_0118",
+        "original_text": "The equilibrium price for a certain type of labor is the wage .",
+        "reference_text": "The balanced price for any kind of labor is called a wage .",
+        "generated_text": "The equilibrium price for a certain type of labor is the wage.",
+        "success": true,
+        "status_code": 200,
+        "response_time": 3.38,
+        "error": null
+    },
+    {
+        "test_id": "WL_0119",
+        "original_text": "Geography The town lies in the Limmat valley between Baden and Zürich .",
+        "reference_text": "Geographically the town lies in the Limmat valley between Baden and Zurich .",
+        "generated_text": "The town is in the Limmat valley. It is between Baden and Zürich.",
+        "success": true,
+        "status_code": 200,
+        "response_time": 3.974,
+        "error": null
+    },
+    {
+        "test_id": "WL_0120",
+        "original_text": "Shade sets the main plot of the novel in motion when he impetuously defies that law , and inadvertently initiates a chain of events that leads to the destruction of his colony 's home , forcing their premature migration , and his separation from them .",
+        "reference_text": "The main plot of the novel is when Shade defies the law and sets off a chain of events that lead to the destuction of his colony 's home and becoming separated from them .",
+        "generated_text": "Shade starts the main plot of the novel. He acts without thinking and breaks that law. By accident, he starts a chain of events. This leads to the destruction of his colony's home. It forces them to migrate too soon. It also separates him from them.",
+        "success": true,
+        "status_code": 200,
+        "response_time": 6.742,
+        "error": null
+    },
+    {
+        "test_id": "WL_0121",
+        "original_text": "He also completed two collections of short stories entitled The Ribbajack & Other Curious Yarns and Seven Strange and Ghostly Tales .",
+        "reference_text": "He also completed two collections of short storeis . The one title was The Ribbajack & Other Curious Yarns . The other one was titled as Seven Strange and Ghostly Tales .",
+        "generated_text": "He also wrote two collections of short stories. \nThe first collection is called The Ribbajack & Other Curious Yarns. \nThe second collection is called Seven Strange and Ghostly Tales.",
+        "success": true,
+        "status_code": 200,
+        "response_time": 4.007,
+        "error": null
+    },
+    {
+        "test_id": "WL_0122",
+        "original_text": "The other incorporated cities on the Palos Verdes Peninsula include Rancho Palos Verdes , Rolling Hills Estates and Rolling Hills .",
+        "reference_text": "Rancho Palos Verdes , Rolling Hills Estates and Rolling Hills are three cities on the Palos Verdes Peninsula .",
+        "generated_text": "The other incorporated cities on the Palos Verdes Peninsula are Rancho Palos Verdes, Rolling Hills Estates, and Rolling Hills.",
+        "success": true,
+        "status_code": 200,
+        "response_time": 3.266,
+        "error": null
+    },
+    {
+        "test_id": "WL_0123",
+        "original_text": "That same year he also received a mechanics certificate , becoming the youngest certificated airplane mechanic in New York .",
+        "reference_text": "That same year he also got a mechanics certificate , becoming the youngest certificated airplane mechanic in New York .",
+        "generated_text": "That same year, he also got a mechanics certificate. This made him the youngest certified airplane mechanic in New York.",
+        "success": true,
+        "status_code": 200,
+        "response_time": 3.394,
+        "error": null
+    },
+    {
+        "test_id": "WL_0124",
+        "original_text": "Some of the largest reservoirs in the world can be found along the Volga .",
+        "reference_text": "Some of the largest lake in the world can be found along the Volga .",
+        "generated_text": "Some of the largest reservoirs in the world are located along the Volga.",
+        "success": true,
+        "status_code": 200,
+        "response_time": 3.051,
+        "error": null
+    },
+    {
+        "test_id": "WL_0125",
+        "original_text": "A mutant is a type of fictional character that appears in comic books published by marvel comics .",
+        "reference_text": "Mutants are fictional characters from the X-Men comic books published by Marvel .",
+        "generated_text": "A mutant is a type of fictional character. This character appears in comic books published by Marvel Comics.",
+        "success": true,
+        "status_code": 200,
+        "response_time": 3.143,
+        "error": null
+    },
+    {
+        "test_id": "WL_0126",
+        "original_text": "It has long been the economic centre of northern Nigeria , and a centre for the production and export of groundnuts .",
+        "reference_text": "It has long been the economic centre of norther Nigeria along with the center for production and export of groundnuts .",
+        "generated_text": "For a long time, it has been the economic centre of northern Nigeria. It has also been a centre for the production and export of groundnuts.",
+        "success": true,
+        "status_code": 200,
+        "response_time": 12.999,
+        "error": null
+    },
+    {
+        "test_id": "WL_0127",
+        "original_text": "The fourth ring is decorated with golden garlands and was added in 1938 39 when the column was moved to its present location .",
+        "reference_text": "The fourth ring is decorated with golden garlands and was added in 1938-1939 when the column was moved to its current location .",
+        "generated_text": "The fourth ring has a decoration of golden garlands. It was added in 1938–1939. This happened when the column was moved to its current location.",
+        "success": true,
+        "status_code": 200,
+        "response_time": 3.31,
+        "error": null
+    },
+    {
+        "test_id": "WL_0128",
+        "original_text": "Dr. David Lindenmeyer -LRB- Australian National University -RRB- has argued that the need for nest boxes indicates that logging practices are not ecologically sustainable , for conserving hollow-dependent species like Leadbeater 's possum .",
+        "reference_text": "Dr. David Lindenmeyer -LRB- Australian National University -RRB- has argued that the need for nest boxes indicates that logging practices are not ecologically sustainable , for conserving hollow-dependent species like Leadbeater 's possum .",
+        "generated_text": "Dr. David Lindenmeyer works at the Australian National University. He states that needing nest boxes shows one thing. It shows that logging practices are not ecologically sustainable. This is important for conserving hollow-dependent species like Leadbeater's possum.",
+        "success": true,
+        "status_code": 200,
+        "response_time": 2.995,
+        "error": null
+    },
+    {
+        "test_id": "WL_0129",
+        "original_text": "Weelkes was later to find himself in trouble with the Chichester Cathedral authorities for his heavy drinking and immoderate behaviour .",
+        "reference_text": "Weelkes later found himself in trouble with the Chichester Cathedral authorities for his heavy drinking and immoderate behavior .",
+        "generated_text": "Later, Weelkes got into trouble with the leaders of Chichester Cathedral. This happened because he drank too much alcohol and behaved badly.",
+        "success": true,
+        "status_code": 200,
+        "response_time": 3.311,
+        "error": null
+    },
+    {
+        "test_id": "WL_0130",
+        "original_text": "The New York City Housing Authority Police Department was a law enforcement agency in New York City that existed from 1952 to 1995 .",
+        "reference_text": "The New York City Housing Authority Police Department was a law enforcement agency in New York City from 1952 to 1995 .",
+        "generated_text": "The New York City Housing Authority Police Department was a law enforcement agency in New York City. It existed from 1952 to 1995.",
+        "success": true,
+        "status_code": 200,
+        "response_time": 3.304,
+        "error": null
+    },
+    {
+        "test_id": "WL_0131",
+        "original_text": "Out of 16,421 participants in the national casting , she was chosen among the 15 candidates to appear on the TV show .",
+        "reference_text": "Out of 16,421 participants in the national casting , And it was selected the 15 candidates to appear on the TV show .",
+        "generated_text": "A total of 16,421 people tried out for the national casting. Out of that group, she was chosen as one of the 15 candidates to appear on the TV show.",
+        "success": true,
+        "status_code": 200,
+        "response_time": 3.325,
+        "error": null
+    },
+    {
+        "test_id": "WL_0132",
+        "original_text": "They are culturally akin to the coastal peoples of Papua New Guinea .",
+        "reference_text": "Their culture is similar to the culture of the coastal peoples of Papua New Guinea .",
+        "generated_text": "Their culture is similar to the culture of the people who live on the coast of Papua New Guinea.",
+        "success": true,
+        "status_code": 200,
+        "response_time": 2.797,
+        "error": null
+    },
+    {
+        "test_id": "WL_0133",
+        "original_text": "Others have theorized that Tresca was eliminated by the NKVD as retribution for criticism of the Stalin regime of the Soviet Union .",
+        "reference_text": "Others have made theories that Tresca was took away by the NKVD as retribution for views put forward as to errors of the Stalin system of things of the Soviet Union .",
+        "generated_text": "Other researchers have a different theory. They think the NKVD killed Tresca. This was revenge. Tresca had criticized the Stalin regime of the Soviet Union.",
+        "success": true,
+        "status_code": 200,
+        "response_time": 3.262,
+        "error": null
+    },
+    {
+        "test_id": "WL_0134",
+        "original_text": "Meteora earned the band multiple awards and honors .",
+        "reference_text": "'' Meteora '' won many awards and honors for the band .",
+        "generated_text": "*Meteora* won the band many awards and honors.",
+        "success": true,
+        "status_code": 200,
+        "response_time": 4.016,
+        "error": null
+    },
+    {
+        "test_id": "WL_0135",
+        "original_text": "Alessandro -LRB- '' Sandro '' -RRB- Mazzola -LRB- born 8 November 1942 -RRB- is an Italian former football player .",
+        "reference_text": "Alessandro Mazzola is an Italian former football player .",
+        "generated_text": "Alessandro, also called Sandro, Mazzola was born on 8 November 1942. He is an Italian former football player.",
+        "success": true,
+        "status_code": 200,
+        "response_time": 3.572,
+        "error": null
+    },
+    {
+        "test_id": "WL_0136",
+        "original_text": "In the years before his final release in 1474 , when he began preparations for the reconquest of Wallachia , Vlad resided with his new wife in a house in the Hungarian capital .",
+        "reference_text": "In the years before his final release in 1474 , when he began preparations for the reconquest of Wallachia , Vlad resided with his new wife in a house in the Hungarian capital .",
+        "generated_text": "Before his final release in 1474, Vlad lived in a house in the capital of Hungary. He lived there with his new wife. During this time, he started to get ready to reconquer Wallachia.",
+        "success": true,
+        "status_code": 200,
+        "response_time": 3.578,
+        "error": null
+    },
+    {
+        "test_id": "WL_0137",
+        "original_text": "Shortly after attaining Category 4 status , the outer convection of the hurricane became ragged .",
+        "reference_text": "Shortly after reaching Category 4 status , the outer convection of the hurricane became worn out",
+        "generated_text": "Soon after the hurricane reached Category 4 status, its outer convection became ragged.",
+        "success": true,
+        "status_code": 200,
+        "response_time": 3.99,
+        "error": null
+    },
+    {
+        "test_id": "WL_0138",
+        "original_text": "There are statues of Sir Alf Ramsey and Sir Bobby Robson , both former Ipswich Town and England managers , outside the ground .",
+        "reference_text": "There are statues of Sir Alf Ramsey and Sir Bobby Robson , both former Ipswich Town and England managers , outside the ground .",
+        "generated_text": "There are statues outside the ground. These statues are of Sir Alf Ramsey and Sir Bobby Robson. Both men used to be managers for Ipswich Town and England.",
+        "success": true,
+        "status_code": 200,
+        "response_time": 6.772,
+        "error": null
+    },
+    {
+        "test_id": "WL_0139",
+        "original_text": "He excuses himself because he has to leave for rehearsal , and he and Dr. Schön leave .",
+        "reference_text": "He excuses himself because he has to leave for rehearsal , Dr.Dr . Schön leave",
+        "generated_text": "He says he must leave for rehearsal. He and Dr. Schön leave together.",
+        "success": true,
+        "status_code": 200,
+        "response_time": 3.188,
+        "error": null
+    },
+    {
+        "test_id": "WL_0140",
+        "original_text": "The crosier symbolises the monasteries of the region .",
+        "reference_text": "The crosier symbolises the monasteries of the region .",
+        "generated_text": "The crosier is a symbol of the monasteries in the region.",
+        "success": true,
+        "status_code": 200,
+        "response_time": 3.166,
+        "error": null
+    },
+    {
+        "test_id": "WL_0141",
+        "original_text": "In December , 1967 , Ten Boom was honored as one of the Righteous Among the Nations by the State of Israel .",
+        "reference_text": "In December , 1967 , Ten Boon was honored as part of the Righteous Amoung the Nations by the State of Israel .",
+        "generated_text": "In December 1967, the State of Israel honored Ten Boom as one of the Righteous Among the Nations.",
+        "success": true,
+        "status_code": 200,
+        "response_time": 3.355,
+        "error": null
+    },
+    {
+        "test_id": "WL_0142",
+        "original_text": "Some articles are quite lengthy and rich in content while others are shorter -LRB- possibly stubs -RRB- and of lesser quality .",
+        "reference_text": "Some clauses are rather lengthy and rich in content while others are shorter -LRB- possibly stubs -RRB- and of lesser quality .",
+        "generated_text": "Some articles are very long and have a lot of content. Other articles are shorter. These shorter articles might be stubs. They are also of lower quality.",
+        "success": true,
+        "status_code": 200,
+        "response_time": 3.397,
+        "error": null
+    },
+    {
+        "test_id": "WL_0143",
+        "original_text": "Bremer reported plans to put Saddam on trial , but claimed that the details of such a trial had not yet been determined .",
+        "reference_text": "Bremer reported plans to put Saddam on trial , but claimed that the details of such a trial had not yet been determined .",
+        "generated_text": "Bremer stated plans to put Saddam on trial. However, he claimed that the details of this trial had not been decided yet.",
+        "success": true,
+        "status_code": 200,
+        "response_time": 3.697,
+        "error": null
+    },
+    {
+        "test_id": "WL_0144",
+        "original_text": "Prospectors from California , Europe and China were also digging along the Peel River and up the mountain slopes .",
+        "reference_text": "Prospectors from California , Europe and China were also digging along the Peel River and up the mountain slopes .",
+        "generated_text": "Prospectors from California, Europe, and China were also digging along the Peel River. They were also digging up the mountain slopes.",
+        "success": true,
+        "status_code": 200,
+        "response_time": 3.144,
+        "error": null
+    },
+    {
+        "test_id": "WL_0145",
+        "original_text": "Oregano is an indispensable ingredient in Greek cuisine .",
+        "reference_text": "Oregano is a necessary ingredient in Greek cuisine .",
+        "generated_text": "Oregano is a very important ingredient in Greek cooking.",
+        "success": true,
+        "status_code": 200,
+        "response_time": 3.447,
+        "error": null
+    },
+    {
+        "test_id": "WL_0146",
+        "original_text": "It was the first asteroid to be discovered by a spacecraft .",
+        "reference_text": "It was the first asteroid discovered by a spacecraft .",
+        "generated_text": "A spacecraft discovered this asteroid first. It was the first one found that way.",
+        "success": true,
+        "status_code": 200,
+        "response_time": 3.063,
+        "error": null
+    },
+    {
+        "test_id": "WL_0147",
+        "original_text": "Human skin hues can range from very dark brown to very pale pink .",
+        "reference_text": "The colors of human skin can be very dark brown or very pale pink , or anywhere in between .",
+        "generated_text": "Human skin hues can range from very dark brown to very pale pink.",
+        "success": true,
+        "status_code": 200,
+        "response_time": 3.447,
+        "error": null
+    },
+    {
+        "test_id": "WL_0148",
+        "original_text": "The sheer weight of the continental icecap sitting on top of Lake Vostok is believed to contribute to the high oxygen concentration .",
+        "reference_text": "The Lake Vostok has a very large weight of the continental icecap on its waters . The high oxygen concentration of the lake water may because of this icecap .",
+        "generated_text": "A thick continental icecap sits on top of Lake Vostok. This heavy ice is thought to help cause the high oxygen concentration.",
+        "success": true,
+        "status_code": 200,
+        "response_time": 3.338,
+        "error": null
+    },
+    {
+        "test_id": "WL_0149",
+        "original_text": "He served as the prime minister of Egypt between 1945 and 1946 and again from 1946 and 1948 .",
+        "reference_text": "He served as prime minster of Egypt from 1945 and 1946 as well as from 1946 through 1948 .",
+        "generated_text": "He was the prime minister of Egypt from 1945 to 1946. He served again as the prime minister of Egypt from 1946 to 1948.",
+        "success": true,
+        "status_code": 200,
+        "response_time": 3.506,
+        "error": null
+    },
+    {
+        "test_id": "WL_0150",
+        "original_text": "A historian has stated that '' it was quinine 's efficacy that gave colonists fresh opportunities to swarm into the Gold Coast , Nigeria and other parts of west Africa '' .",
+        "reference_text": "A historian has stated that '' it was quinine 's effectiveness that gave colonists fresh opportunities to move somewhere in large numbers into the Gold Coast , Nigeria and other parts of west Africa ' .",
+        "generated_text": "A historian stated something important. Quinine worked very well. Because of this, colonists got new chances. They moved in large numbers into the Gold Coast, Nigeria, and other parts of west Africa.",
+        "success": true,
+        "status_code": 200,
+        "response_time": 3.61,
+        "error": null
+    },
+    {
+        "test_id": "WL_0151",
+        "original_text": "As of 2000 , the population was 89,148 .",
+        "reference_text": "In the year 2000 , the population was 89,148 .",
+        "generated_text": "The population was 89,148 in the year 2000.",
+        "success": true,
+        "status_code": 200,
+        "response_time": 7.703,
+        "error": null
+    },
+    {
+        "test_id": "WL_0152",
+        "original_text": "Before the advent of the pocket calculator , it was the most commonly used calculation tool in science and engineering .",
+        "reference_text": "Before the invention of the pocket calculator , it was the most commonly used calculation tool in science and engineering .",
+        "generated_text": "Before the pocket calculator was invented, it was the most commonly used calculation tool in science and engineering.",
+        "success": true,
+        "status_code": 200,
+        "response_time": 3.161,
+        "error": null
+    },
+    {
+        "test_id": "WL_0153",
+        "original_text": "Disney received a full-size Oscar statuette and seven miniature ones , presented to him by 10-year-old child actress Shirley Temple .",
+        "reference_text": "Disney got a full-size Oscar statuette and seven miniature ones , given to him by 10-year-old child actress Shirley Temple .",
+        "generated_text": "Shirley Temple was a 10-year-old child actress. She gave Disney one full-size Oscar statuette and seven miniature Oscar statuettes.",
+        "success": true,
+        "status_code": 200,
+        "response_time": 6.378,
+        "error": null
+    },
+    {
+        "test_id": "WL_0154",
+        "original_text": "Both names became defunct in 2007 when they were merged into The National Museum of Scotland .",
+        "reference_text": "Both names are no longer used and were combined as the National Musuemof Scotland",
+        "generated_text": "Both names became defunct in 2007. They were merged into The National Museum of Scotland.",
+        "success": true,
+        "status_code": 200,
+        "response_time": 3.468,
+        "error": null
+    },
+    {
+        "test_id": "WL_0155",
+        "original_text": "Fearing that Drek will destroy the galaxy , Clank asks Ratchet to help him find the famous superhero Captain Qwark , in an effort to stop Drek .",
+        "reference_text": "Clank asks Ratchet to help him find the famous superhero Captain Qwark because he is afraid that Drek will try to destroy the galaxy and wants to stop him .",
+        "generated_text": "Clank is afraid. He thinks Drek will destroy the galaxy. Because of this, Clank asks Ratchet for help. They need to find the famous superhero Captain Qwark. They want to stop Drek.",
+        "success": true,
+        "status_code": 200,
+        "response_time": 7.401,
+        "error": null
+    },
+    {
+        "test_id": "WL_0156",
+        "original_text": "She was left behind -LRB- explanations for this vary -RRB- when the rest of the Nicoleños were moved to the mainland .",
+        "reference_text": "People have different thinking about why she was left behind when the Nicolenos were moved to the main part of the country .",
+        "generated_text": "She was left behind when the rest of the Nicoleños were moved to the mainland. Explanations for this vary.",
+        "success": true,
+        "status_code": 200,
+        "response_time": 7.483,
+        "error": null
+    },
+    {
+        "test_id": "WL_0157",
+        "original_text": "The form of chess played is speed chess in which each competitor has a total of twelve minutes for the whole game .",
+        "reference_text": "The form of chess played is speed chess , in which each player has a total of twelve minutes for the whole game .",
+        "generated_text": "The players play speed chess. Each player has a total of twelve minutes for the whole game.",
+        "success": true,
+        "status_code": 200,
+        "response_time": 3.132,
+        "error": null
+    },
+    {
+        "test_id": "WL_0158",
+        "original_text": "It is derived from Voice of America -LRB- VoA -RRB- Special English .",
+        "reference_text": "It comes from Voice of America -LRB- VoA -RRB- Special English .",
+        "generated_text": "It comes from Voice of America -LRB- VoA -RRB- Special English .",
+        "success": true,
+        "status_code": 200,
+        "response_time": 9.27,
+        "error": null
+    },
+    {
+        "test_id": "WL_0159",
+        "original_text": "After a brief stand-off , the WWF cavalry turned around and attacked Kane and Jericho .",
+        "reference_text": "After a brief stand-off , the WWF cavalry turned around and attacked Kane and Jericho .",
+        "generated_text": "After a short stand-off, the WWF cavalry turned around. They then attacked Kane and Jericho.",
+        "success": true,
+        "status_code": 200,
+        "response_time": 3.531,
+        "error": null
+    },
+    {
+        "test_id": "WL_0160",
+        "original_text": "From 1900 to 1920 many new facilities were constructed on campus , including facilities for the dental and pharmacy programs , a chemistry building , a building for the natural sciences , Hill Auditorium , large hospital and library complexes , and two residence halls .",
+        "reference_text": "From 1900 to 1920 , many new facilities like , for dental and pharmacy programs , a chemistry building , a building for the natural sciences , Hill Auditorium , large hospital and library complexes , and two residence halls were constructed in the campus .",
+        "generated_text": "Between 1900 and 1920, the campus built many new facilities. These included buildings for the dental and pharmacy programs. A chemistry building was built. A building for the natural sciences was built. Hill Auditorium was built. Large hospital and library complexes were built. Two residence halls were also built.",
+        "success": true,
+        "status_code": 200,
+        "response_time": 3.529,
+        "error": null
+    },
+    {
+        "test_id": "WL_0161",
+        "original_text": "The collapsed dome of the main church has been restored entirely .",
+        "reference_text": "The collapsed dome of the main church has been restored entirely .",
+        "generated_text": "The collapsed dome of the main church has been fully restored.",
+        "success": true,
+        "status_code": 200,
+        "response_time": 3.319,
+        "error": null
+    },
+    {
+        "test_id": "WL_0162",
+        "original_text": "Bone marrow is the flexible tissue found in the hollow interior of bones .",
+        "reference_text": "Bone marrow is the flexible tissue found in the hollow insides of bones .",
+        "generated_text": "Bone marrow is a flexible tissue. It is found inside the hollow parts of bones.",
+        "success": true,
+        "status_code": 200,
+        "response_time": 3.309,
+        "error": null
+    },
+    {
+        "test_id": "WL_0163",
+        "original_text": "Moderate to severe damage extended up the Atlantic coastline and as far inland as West Virginia .",
+        "reference_text": "There was moderate to severe damage all the way up the Atlantic coastline and as far inland as West Virginia .",
+        "generated_text": "Moderate to severe damage spread up the Atlantic coastline. This damage also reached as far inland as West Virginia.",
+        "success": true,
+        "status_code": 200,
+        "response_time": 3.408,
+        "error": null
+    },
+    {
+        "test_id": "WL_0164",
+        "original_text": "Chauvin was embarrassed to receive his award and initially indicated that he may not accept it .",
+        "reference_text": "Chauvin was embarrassed to get his award and at first said that he may not accept it .",
+        "generated_text": "Chauvin felt embarrassed to get his award. At first, he showed that he might not accept it.",
+        "success": true,
+        "status_code": 200,
+        "response_time": 2.986,
+        "error": null
+    },
+    {
+        "test_id": "WL_0165",
+        "original_text": "In approximate relation to the parties ' respective strength in the Federal Assembly , the seats were distributed as follows : Free Democratic Party -LRB- FDP -RRB- : 2 members , Christian Democratic People 's Party -LRB- CVP -RRB- : 2 members , Social Democratic Party -LRB- SP -RRB- : 2 members , and Swiss People 's Party -LRB- SVP -RRB- : 1 member .",
+        "reference_text": "In close relation to each of the parties ' strength in the Federal Assembly , the seats were given as follows : Free Democratic Party -LRB- FDP -RRB- , 2 members ; Christian Democratic People 's Party -LRB- CVP -RRB- , 2 members ; Social Democratic Party -LRB- SP -RRB- , 2 members ; and Swiss People 's Party -LRB- SVP -RRB- , 1 member .",
+        "generated_text": "The seats were given out based on how strong each party is in the Federal Assembly. \n\nHere is how the seats were split:\n- Free Democratic Party (FDP): 2 members\n- Christian Democratic People's Party (CVP): 2 members\n- Social Democratic Party (SP): 2 members\n- Swiss People's Party (SVP): 1 member",
+        "success": true,
+        "status_code": 200,
+        "response_time": 3.201,
+        "error": null
+    },
+    {
+        "test_id": "WL_0166",
+        "original_text": "It is also a starting point for people wanting to explore Cooktown , Cape York Peninsula , and the Atherton Tableland .",
+        "reference_text": "It is a starting point for people wanting to explore Cooktown , Cape York Peninsula and Atherton Tableland .",
+        "generated_text": "It is also a starting point. People want to explore Cooktown, Cape York Peninsula, and the Atherton Tableland.",
+        "success": true,
+        "status_code": 200,
+        "response_time": 3.088,
+        "error": null
+    },
+    {
+        "test_id": "WL_0167",
+        "original_text": "The Britannica was primarily a Scottish enterprise , as symbolised by its thistle logo , the floral emblem of Scotland .",
+        "reference_text": "The Britannica was primarily a Scottish enterprise , as symbolised by its thistle logo , the floral emblem of Scotland .",
+        "generated_text": "The Britannica was mainly a Scottish project. This is shown by its thistle logo. The thistle is the floral emblem of Scotland.",
+        "success": true,
+        "status_code": 200,
+        "response_time": 3.085,
+        "error": null
+    },
+    {
+        "test_id": "WL_0168",
+        "original_text": "While at Kahn he was chief architect for the Fisher Building in 1928 .",
+        "reference_text": "He was a chief architect fot Fisher Building in 1928 when he was at Kahn",
+        "generated_text": "While he worked at Kahn, he was the chief architect for the Fisher Building in 1928.",
+        "success": true,
+        "status_code": 200,
+        "response_time": 3.633,
+        "error": null
+    },
+    {
+        "test_id": "WL_0169",
+        "original_text": "The area covered by the warning issued on September 22 was extended southwards as Jose intensified , before being canceled soon after landfall on September 23 .",
+        "reference_text": "The area covered by the warning issued on September 22 was extended southwards as Jose increased , before being canceled soon after landdfall on September 23 .",
+        "generated_text": "A warning was issued on September 22. The area covered by this warning was made bigger to the south. This happened because Jose became stronger. The warning was canceled soon after Jose made landfall on September 23.",
+        "success": true,
+        "status_code": 200,
+        "response_time": 9.072,
+        "error": null
+    },
+    {
+        "test_id": "WL_0170",
+        "original_text": "This was substantially complete when Messiaen died , and Yvonne Loriod undertook the final movement 's orchestration with advice from George Benjamin .",
+        "reference_text": "This was substantially complete when Messiaen died , and Yvonne Loriod undertook the final movement 's of orchestration with advice from George Benjamin .",
+        "generated_text": "This work was almost finished when Messiaen died. Yvonne Loriod orchestrated the final movement. George Benjamin gave her advice.",
+        "success": true,
+        "status_code": 200,
+        "response_time": 8.605,
+        "error": null
+    },
+    {
+        "test_id": "WL_0171",
+        "original_text": "His sentence was transportation to Australia for seven years .",
+        "reference_text": "His sentence was carried to Australia for seven years .",
+        "generated_text": "He was punished by being sent to Australia as a prisoner for seven years.",
+        "success": true,
+        "status_code": 200,
+        "response_time": 3.233,
+        "error": null
+    },
+    {
+        "test_id": "WL_0172",
+        "original_text": "The name survives as a brand for a related spin-off digital television channel , digital radio station , and website which have survived the demise of the printed magazine .",
+        "reference_text": "The name survives as a brand for related spin-off digital television channel , digital radio station and website which has survived the demise of the printed magazine .",
+        "generated_text": "The printed magazine ended. However, the name still exists. It is now used as a brand for three things. These are a related spin-off digital television channel, a digital radio station, and a website.",
+        "success": true,
+        "status_code": 200,
+        "response_time": 9.187,
+        "error": null
+    },
+    {
+        "test_id": "WL_0173",
+        "original_text": "At four-and-a-half years old he was left to fend for himself on the streets of northern Italy for the next four years , living in various orphanages and roving through towns with groups of other homeless children .",
+        "reference_text": "At four-and-a-half years old , he was left to manage for himself on the streets of Northern Italy for the next four years , living in various orphanages and travelling through towns with groups of other homeless children .",
+        "generated_text": "At four and a half years old, he was left alone on the streets of northern Italy. He lived this way for the next four years. During this time, he lived in various orphanages. He also traveled through towns with groups of other homeless children.",
+        "success": true,
+        "status_code": 200,
+        "response_time": 3.378,
+        "error": null
+    },
+    {
+        "test_id": "WL_0174",
+        "original_text": "It has a capacity of 98,772 , making it the largest stadium in Europe , and the eleventh largest in the world .",
+        "reference_text": "It can seat 98.772 , which makes it the largest stadium in Europe , and the eleventh largest in the world .",
+        "generated_text": "It has a capacity of 98,772. This makes it the largest stadium in Europe. It is also the eleventh largest stadium in the world.",
+        "success": true,
+        "status_code": 200,
+        "response_time": 2.946,
+        "error": null
+    },
+    {
+        "test_id": "WL_0175",
+        "original_text": "New South Wales 's largest city and capital is Sydney .",
+        "reference_text": "largest city new south wales and its capital is sydney .",
+        "generated_text": "Sydney is the capital of New South Wales. It is also the largest city in New South Wales.",
+        "success": true,
+        "status_code": 200,
+        "response_time": 3.423,
+        "error": null
+    },
+    {
+        "test_id": "WL_0176",
+        "original_text": "The four canonical texts are the Gospel of Matthew , Gospel of Mark , Gospel of Luke and Gospel of John , probably written between AD 65 and 100 -LRB- see also the Gospel according to the Hebrews -RRB- .",
+        "reference_text": "Gospels , Matthew , Mark , Luke and John were most likey written after Christ",
+        "generated_text": "There are four canonical texts. These are the Gospel of Matthew, the Gospel of Mark, the Gospel of Luke, and the Gospel of John. People probably wrote them between AD 65 and 100. You can also see the Gospel according to the Hebrews.",
+        "success": true,
+        "status_code": 200,
+        "response_time": 3.414,
+        "error": null
+    },
+    {
+        "test_id": "WL_0177",
+        "original_text": "It is not actually a true louse .",
+        "reference_text": "It 's not actually a true louse .",
+        "generated_text": "It is not a true louse.",
+        "success": true,
+        "status_code": 200,
+        "response_time": 6.831,
+        "error": null
+    },
+    {
+        "test_id": "WL_0178",
+        "original_text": "It was originally thought that the debris thrown up by the collision filled in the smaller craters .",
+        "reference_text": "It was thought that the debris thrown up by the collision filled the smaller craters .",
+        "generated_text": "At first, experts thought that the debris thrown up by the collision filled in the smaller craters.",
+        "success": true,
+        "status_code": 200,
+        "response_time": 3.268,
+        "error": null
+    },
+    {
+        "test_id": "WL_0179",
+        "original_text": "From the telephone exchange , the Port Jackson District Commandant could communicate with all military installations on the harbour .",
+        "reference_text": "By use of the telephone exchange , the Port Jackson District Commandant could talk to all military installations on the harbour .",
+        "generated_text": "The Port Jackson District Commandant could use the telephone exchange to talk to every military installation on the harbour.",
+        "success": true,
+        "status_code": 200,
+        "response_time": 2.866,
+        "error": null
+    },
+    {
+        "test_id": "WL_0180",
+        "original_text": "In the 5th century Slavs started to move into the area .",
+        "reference_text": "In the 5th century Slaves started to move in the area .",
+        "generated_text": "In the 5th century, Slavs started to move into the area.",
+        "success": true,
+        "status_code": 200,
+        "response_time": 2.345,
+        "error": null
+    },
+    {
+        "test_id": "WL_0181",
+        "original_text": "The current lineup of the band comprises Flynn -LRB- vocals , guitar -RRB- , Duce -LRB- bass -RRB- , Phil Demmel -LRB- guitar -RRB- , and Dave McClain -LRB- drums -RRB- .",
+        "reference_text": "The current lineup of the band comprises Flynn -LRB- vocals , guitar -RRB- , Duce -LRB- bass -RRB- , Phil Demmel -LRB- guitar -RRB- , and Dave McClain -LRB- drums -RRB-",
+        "generated_text": "The band has four current members. Flynn is on vocals and guitar. Duce plays the bass. Phil Demmel plays the guitar. Dave McClain plays the drums.",
+        "success": true,
+        "status_code": 200,
+        "response_time": 8.112,
+        "error": null
+    },
+    {
+        "test_id": "WL_0182",
+        "original_text": "This was absorbed into battalions being formed for XI International Brigade .",
+        "reference_text": "This was added to battalions being formed for XI International Brigade .",
+        "generated_text": "This was absorbed into battalions being formed for XI International Brigade.",
+        "success": true,
+        "status_code": 200,
+        "response_time": 3.269,
+        "error": null
+    },
+    {
+        "test_id": "WL_0183",
+        "original_text": "No skater has yet accomplished a quadruple Axel in competition .",
+        "reference_text": "Quadruple Axel at a competition is yet to be fulfilled by any skater",
+        "generated_text": "No skater has yet landed a quadruple Axel in a competition.",
+        "success": true,
+        "status_code": 200,
+        "response_time": 3.22,
+        "error": null
+    },
+    {
+        "test_id": "WL_0184",
+        "original_text": "OEL manga series Graystripe 's Trilogy There is a three volume original English-language manga series following Graystripe , between the time that he was taken by Twolegs in Dawn until he returned to ThunderClan in The Sight .",
+        "reference_text": "OEL manga occuring in sequence Graystripe 's Trilogy . There 's a three quantity volume earliest English-language manga series following Graystripe , linking the time that it was accepted by Twolegs in Dawn up until he came back to ThunderClan in The Sight .",
+        "generated_text": "Graystripe's Trilogy is an OEL manga series. It has three volumes. It is an original English-language manga series. It follows Graystripe. The story takes place between two events. The first event is when he was taken by Twolegs in Dawn. The second event is when he returned to ThunderClan in The Sight.",
+        "success": true,
+        "status_code": 200,
+        "response_time": 6.724,
+        "error": null
+    },
+    {
+        "test_id": "WL_0185",
+        "original_text": "In 1990 , Mark Messier took the Hart over Ray Bourque by a margin of two votes , the difference being a single first-place vote .",
+        "reference_text": "In 1990 Mark Messier took Hart over Ray Bourque by two votes , the difference being a first-place vote .",
+        "generated_text": "In 1990, Mark Messier won the Hart trophy over Ray Bourque. He won by a margin of two votes. The difference was a single first-place vote.",
+        "success": true,
+        "status_code": 200,
+        "response_time": 3.355,
+        "error": null
+    },
+    {
+        "test_id": "WL_0186",
+        "original_text": "The book , Political Economy , was published in 1985 , but had limited classroom adoption .",
+        "reference_text": "The book , Political Economy , was published in 1985 , but was not used in many classrooms .",
+        "generated_text": "The book titled Political Economy came out in 1985. However, teachers did not use it very much in their classrooms.",
+        "success": true,
+        "status_code": 200,
+        "response_time": 6.933,
+        "error": null
+    },
+    {
+        "test_id": "WL_0187",
+        "original_text": "The latter device can then be designed and used in less stringent environments .",
+        "reference_text": "The device can be designed for use in less exact environments .",
+        "generated_text": "Then, you can design the second device and use it in places that are less strict.",
+        "success": true,
+        "status_code": 200,
+        "response_time": 3.556,
+        "error": null
+    },
+    {
+        "test_id": "WL_0188",
+        "original_text": "Wario Land The Wario Land series is a platforming series that started with Wario Land : Super Mario Land 3 , a spin-off of the Super Mario Land series .",
+        "reference_text": "The platform series Wario Land from the Wario Land series stared with the Super Mario Land series .",
+        "generated_text": "Wario Land is a platforming video game series. It started with Wario Land: Super Mario Land 3. This game is a spin-off of the Super Mario Land series.",
+        "success": true,
+        "status_code": 200,
+        "response_time": 7.668,
+        "error": null
+    },
+    {
+        "test_id": "WL_0189",
+        "original_text": "Before 1980 , a section of the Commonwealth Railways Central Australian line passed along the western side of the Simpson Desert .",
+        "reference_text": "Before 1980 , a part of the Commonwealth Railways Central Australian line went along the western side of the Simpson Desert .",
+        "generated_text": "Before the year 1980, part of the Commonwealth Railways Central Australian line ran on the western side of the Simpson Desert.",
+        "success": true,
+        "status_code": 200,
+        "response_time": 6.374,
+        "error": null
+    },
+    {
+        "test_id": "WL_0190",
+        "original_text": "Conversely , bills proposed by the Law Commission , and consolidation bills , start in the House of Lords .",
+        "reference_text": "The bills proposed by the Law Commission and consolidation bills start in the House of Lords contrarily .",
+        "generated_text": "Other bills start in the House of Lords. These are bills proposed by the Law Commission. Consolidation bills also start there.",
+        "success": true,
+        "status_code": 200,
+        "response_time": 3.053,
+        "error": null
+    },
+    {
+        "test_id": "WL_0191",
+        "original_text": "This resulted in both Montenegro and Serbia becoming independent countries .",
+        "reference_text": "This resulted in both Montenegro and Serbia becoming independent countries .",
+        "generated_text": "Because of this, Montenegro and Serbia both became independent countries.",
+        "success": true,
+        "status_code": 200,
+        "response_time": 8.069,
+        "error": null
+    },
+    {
+        "test_id": "WL_0192",
+        "original_text": "Nupedia was founded on March 9 , 2000 , under the ownership of Bomis , Inc , a web portal company .",
+        "reference_text": "Bomis Inc , a web portal company founded Nupedia on March 9 , 2000 .",
+        "generated_text": "Nupedia was started on March 9, 2000. It was owned by Bomis, Inc. Bomis, Inc. was a web portal company.",
+        "success": true,
+        "status_code": 200,
+        "response_time": 3.347,
+        "error": null
+    },
+    {
+        "test_id": "WL_0193",
+        "original_text": "SummerSlam -LRB- 2009 -RRB- is an upcoming professional wrestling pay-per-view event produced by World Wrestling Entertainment -LRB- WWE -RRB- , which will take place on August 23 , 2009 at Staples Center in Los Angeles , California .",
+        "reference_text": "SummerSlam -LRB- 2009 -RRB- is an upcoming professional wrestling pay-per-view event produced by World Wrestling Entertainment -LRB- WWE -RRB- , which will take place on August 23 , 2009 at Staples Center in Los Angeles , California .",
+        "generated_text": "SummerSlam (2009) is an upcoming professional wrestling pay-per-view event. World Wrestling Entertainment (WWE) is producing the event. It will take place on August 23, 2009. The location is the Staples Center in Los Angeles, California.",
+        "success": true,
+        "status_code": 200,
+        "response_time": 10.244,
+        "error": null
+    },
+    {
+        "test_id": "WL_0194",
+        "original_text": "Iain Grieve -LRB- born 19 February , 1987 in Jwaneng , Botswana -RRB- is a rugby union back-rower for Bristol Rugby in the Guinness Premiership .",
+        "reference_text": "Iain Grieve -LRB- born 19 February , 1987 in Jwaneng , Botswana -RRB- is a rugby coming together back-rower for Bristol Rugby in the Guinness Premiership .",
+        "generated_text": "Iain Grieve was born on February 19, 1987. He was born in Jwaneng, Botswana. He plays rugby union as a back-rower. He plays for Bristol Rugby in the Guinness Premiership.",
+        "success": true,
+        "status_code": 200,
+        "response_time": 3.25,
+        "error": null
+    },
+    {
+        "test_id": "WL_0195",
+        "original_text": "The Great Dark Spot is thought to represent a hole in the methane cloud deck of Neptune .",
+        "reference_text": "The Great Dark Spot is thought to represent a hole in the methane cloud deck of Neptune .",
+        "generated_text": "Scientists think the Great Dark Spot is a hole. This hole is in the methane cloud deck of Neptune.",
+        "success": true,
+        "status_code": 200,
+        "response_time": 3.222,
+        "error": null
+    },
+    {
+        "test_id": "WL_0196",
+        "original_text": "Johan was also the original bassist of the Swedish power metal band HammerFall , but quit before the band ever released a studio album .",
+        "reference_text": "Johan was also the original bassist of the Swedish power metal band , Hammerfall , but quit before the band ever released a studio album .",
+        "generated_text": "Johan was the original bassist of the Swedish power metal band HammerFall. However, he quit before the band released any studio album.",
+        "success": true,
+        "status_code": 200,
+        "response_time": 3.659,
+        "error": null
+    },
+    {
+        "test_id": "WL_0197",
+        "original_text": "Depending on the context , another closely-related meaning of constituent is that of a citizen residing in the area governed , represented , or otherwise served by a politician ; sometimes this is restricted to citizens who elected the politician .",
+        "reference_text": "Based on the given situation , one more nearest meaning of constituent would be '' a citizen residing in the area governed , represented , or otherwise served by a politician ; '' at times , this is limited to the citizens who elected the politician .",
+        "generated_text": "The word **constituent** can have another similar meaning. \nIt can mean a **citizen**. \nThis citizen lives in an area. \nA politician governs, represents, or serves this area. \nSometimes, this meaning only includes citizens who voted for the politician.",
+        "success": true,
+        "status_code": 200,
+        "response_time": 5.697,
+        "error": null
+    },
+    {
+        "test_id": "WL_0198",
+        "original_text": "The legs are wide at the top , and narrow at the ankle .",
+        "reference_text": "The legs are wide at the top , and narrow at the ankle .",
+        "generated_text": "The legs are wide at the top. The legs are narrow at the ankle.",
+        "success": true,
+        "status_code": 200,
+        "response_time": 4.068,
+        "error": null
+    },
+    {
+        "test_id": "WL_0199",
+        "original_text": "The quark model was independently proposed by physicists Murray Gell-Mann and George Zweig in 1964 .",
+        "reference_text": "The quark model was independently proposed by physicists Murray Gell-Mann and George Zweig in 1964 .",
+        "generated_text": "Two physicists named Murray Gell-Mann and George Zweig proposed the quark model independently in 1964.",
+        "success": true,
+        "status_code": 200,
+        "response_time": 3.006,
+        "error": null
+    }
+]
