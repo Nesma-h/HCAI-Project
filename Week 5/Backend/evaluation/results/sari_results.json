@@ -1,0 +1,6 @@
+{
+    "model": "gemini-3.5-flash-lite",
+    "dataset": "WikiLarge Test Split",
+    "evaluated_examples": 30,
+    "sari_score": 34.80760343083482
+}
